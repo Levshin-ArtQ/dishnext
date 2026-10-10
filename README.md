@@ -16,7 +16,7 @@ npm run build
 
 iPhone: Safari → Поделиться → На экран «Домой». После первого онлайн-визита оболочка и каталог открываются офлайн. Фото TheMealDB и внешние рецепты могут требовать сеть.
 
-Vercel: Framework **Vite**, корневая папка `dishnext/` (или корень отдельного репозитория), `vercel.json` уже задаёт заголовки для service worker.
+Живая версия: [dishnext.vercel.app](https://dishnext.vercel.app). Репозиторий `Levshin-ArtQ/dishnext`; пуш в `main` собирает Vercel. Framework **Vite**, `vercel.json` задаёт заголовки для service worker.
 
 ## Как устроен вечер
 
