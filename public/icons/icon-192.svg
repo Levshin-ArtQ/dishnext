@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Что поесть">
+  <rect width="192" height="192" rx="40" fill="#C0392B"/>
+  <path d="M96 44c7 11 7 18 0 28-7-10-7-17 0-28z" fill="#F6E7C8" opacity=".9"/>
+  <ellipse cx="96" cy="86" rx="44" ry="8" fill="#8E241C"/>
+  <path d="M52 90c3 34 18 55 44 55s41-21 44-55c-14 7-28 10-44 10s-30-3-44-10z" fill="#F4E6D1"/>
+  <ellipse cx="96" cy="90" rx="40" ry="6" fill="#E7C9A3"/>
+  <circle cx="88" cy="88" r="3" fill="#C0392B"/>
+  <circle cx="102" cy="91" r="2.2" fill="#D4A04A"/>
+</svg>

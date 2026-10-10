@@ -1,0 +1,22 @@
+:root {
+  --paper: #fde8dc;
+  --paper-2: #f6d3c2;
+  --cream: #fff8f2;
+  --mint: #e7f4e4;
+  --ink: #2a1c16;
+  --ink-soft: #7a5d52;
+  --line: rgba(42, 28, 22, 0.1);
+  --paprika: #ef6b57;
+  --paprika-deep: #c44736;
+  --olive: #3f6b4c;
+  --olive-soft: #5f8a68;
+  --saffron: #f0b35a;
+  --plum: #c45d7a;
+  --shadow: 0 16px 40px rgba(196, 90, 70, 0.14);
+  --radius: 28px;
+  --font-serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+}

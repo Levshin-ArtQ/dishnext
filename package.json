@@ -1,0 +1,32 @@
+{
+  "name": "dishnext",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Что поесть? — подбор ужина свайпами и турниром",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host --port 8772",
+    "dev": "vite --host --port 8772",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host --port 8772",
+    "test": "vitest run && node scripts/smoke-test.js",
+    "catalog": "python3 scripts/build_catalog.py",
+    "catalog:enrich": "python3 scripts/enrich_catalog.py && python3 scripts/apply_blurbs.py",
+    "thumbs": "python3 scripts/fetch_thumbs.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
