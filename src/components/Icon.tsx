@@ -24,7 +24,8 @@ export type IconName =
   | "skillet"
   | "pot"
   | "oven"
-  | "edit";
+  | "edit"
+  | "download";
 
 const PATHS: Record<IconName, ReactNode> = {
   clock: (
@@ -121,6 +122,13 @@ const PATHS: Record<IconName, ReactNode> = {
     <>
       <path d="M4 16.8V20h3.2L17 10.2 13.8 7 4 16.8z" />
       <path d="M14.6 6.2 17 3.8 20.2 7 17.8 9.4" />
+    </>
+  ),
+  download: (
+    <>
+      <path d="M12 4v11" />
+      <path d="M8 11l4 4 4-4" />
+      <path d="M5 19h14" />
     </>
   ),
   oven: (

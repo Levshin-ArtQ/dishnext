@@ -2,6 +2,13 @@ import { describe, expect, it } from "vitest";
 import { canonicalGroups, oneCardPerDish, relateDishes } from "../src/domain/dedupe";
 import { allergiesIntact, applyHardFilters, dishMatchesConstraints, relaxOptional } from "../src/domain/filters";
 import { cookLines, hasIngredient } from "../src/domain/pantry";
+import {
+  applyPrioritiesToProfile,
+  deckFromPriorities,
+  exportPriorities,
+  normalizePriorities,
+  rankByPriorities
+} from "../src/domain/priorities";
 import { applyReactionToProfile, buildDeck, DEFAULT_PROFILE, scoreDish } from "../src/domain/ranking";
 import { buildReport } from "../src/domain/report";
 import {
@@ -640,6 +647,89 @@ describe("card copy", () => {
     });
     expect(cardBlurb(d)).toBe("Сливочный суп из моллюсков с беконом и картофелем.");
     expect(classifyProtein(d)).toBe("fish");
+  });
+});
+
+describe("priority export and match-by-weights", () => {
+  it("exports scores and weights without rotation history", () => {
+    const profile = {
+      ...DEFAULT_PROFILE,
+      cuisineScores: { Итальянская: 1.4 },
+      lovedDishIds: ["d1"],
+      seenDishIds: ["d1", "d3"],
+      recentShownIds: ["d1", "d2", "d3"]
+    };
+    const snap = exportPriorities(profile, "2026-10-10T12:00:00.000Z");
+    expect(snap.version).toBe(1);
+    expect(snap.cuisineScores.Итальянская).toBe(1.4);
+    expect(snap.lovedDishIds).toEqual(["d1"]);
+    expect(snap.weights.wp).toBe(DEFAULT_PROFILE.weights.wp);
+    expect(JSON.stringify(snap)).not.toMatch(/seenDishIds|recentShownIds/);
+  });
+
+  it("round-trips a JSON snapshot onto a live profile without wiping rotation", () => {
+    const live = {
+      ...DEFAULT_PROFILE,
+      seenDishIds: ["d3"],
+      recentShownIds: ["d3", "d4"]
+    };
+    const file = exportPriorities({
+      ...DEFAULT_PROFILE,
+      cuisineScores: { Вьетнамская: 2 },
+      categoryScores: { Говядина: 1.1 },
+      ingredientScores: { корица: 0.9 },
+      lovedDishIds: ["d3"],
+      weights: { ...DEFAULT_PROFILE.weights, wp: 1.6, wr: 0.4 }
+    });
+    const parsed = normalizePriorities(JSON.parse(JSON.stringify(file)));
+    expect(parsed).not.toBeNull();
+    const next = applyPrioritiesToProfile(live, parsed!);
+    expect(next.cuisineScores.Вьетнамская).toBe(2);
+    expect(next.weights.wp).toBe(1.6);
+    expect(next.lovedDishIds).toEqual(["d3"]);
+    expect(next.seenDishIds).toEqual(["d3"]);
+    expect(next.recentShownIds).toEqual(["d3", "d4"]);
+  });
+
+  it("rejects unrelated JSON", () => {
+    expect(normalizePriorities(null)).toBeNull();
+    expect(normalizePriorities({ hello: "world" })).toBeNull();
+  });
+
+  it("ranks leftover dishes by the exported weights", () => {
+    const profile = {
+      ...DEFAULT_PROFILE,
+      cuisineScores: { Итальянская: 2.4, Вьетнамская: 0 },
+      categoryScores: { Паста: 1.8 },
+      ingredientScores: { паста: 1.2 },
+      lovedDishIds: []
+    };
+    const ranked = rankByPriorities([pho, carbonara, bolognese], profile, {
+      constraints: { ...defaultConstraints(), avoidRecent: false },
+      mode: "feed"
+    });
+    expect(ranked[0].dish.id).toBe("d1");
+    expect(ranked.map((r) => r.dish.id)).not.toContain("missing");
+    expect(ranked[0].P).toBeGreaterThan(ranked[ranked.length - 1].P);
+  });
+
+  it("builds a weighted deck that skips already chosen dishes", () => {
+    const profile = {
+      ...DEFAULT_PROFILE,
+      cuisineScores: { Итальянская: 3, Японская: -1 },
+      categoryScores: { Паста: 2 },
+      ingredientScores: { паста: 2 },
+      lovedDishIds: ["d1"]
+    };
+    const deck = deckFromPriorities([carbonara, bolognese, pho, rendang, karaage], profile, {
+      constraints: { ...defaultConstraints(), avoidRecent: false, haveIngredients: [] },
+      mode: "feed",
+      excludeIds: ["d1"],
+      size: 3
+    });
+    expect(deck.map((d) => d.id)).not.toContain("d1");
+    expect(deck).toHaveLength(3);
+    expect(deck[0].id).toBe("d2");
   });
 });
 

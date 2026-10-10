@@ -17,7 +17,8 @@ export function Result({
   onSave,
   onAgain,
   onHome,
-  onEdit
+  onEdit,
+  onMoreByWeights
 }: {
   winner?: Dish;
   alternatives: Dish[];
@@ -30,6 +31,7 @@ export function Result({
   onAgain: () => void;
   onHome: () => void;
   onEdit?: () => void;
+  onMoreByWeights?: () => void;
 }) {
   if (!winner) {
     return (
@@ -39,6 +41,11 @@ export function Result({
         <button className="primary" onClick={onAgain}>
           Выбрать снова
         </button>
+        {onMoreByWeights && (
+          <button className="secondary" onClick={onMoreByWeights} style={{ marginTop: 10 }}>
+            Подобрать по весам
+          </button>
+        )}
       </section>
     );
   }
@@ -130,6 +137,11 @@ export function Result({
         <button className="secondary" onClick={onAgain} style={{ flex: 1 }}>
           Выбрать другое
         </button>
+        {onMoreByWeights && (
+          <button className="primary" onClick={onMoreByWeights} style={{ flex: 1 }}>
+            Ещё по весам
+          </button>
+        )}
       </div>
     </section>
   );

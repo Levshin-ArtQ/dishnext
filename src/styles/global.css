@@ -892,6 +892,37 @@ h2 { font-size: clamp(28px, 7vw, 44px); }
   display: grid;
   gap: 12px;
 }
+.match-list {
+  display: grid;
+  gap: 8px;
+}
+.match-item {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 18px;
+  background: rgba(255, 247, 236, 0.55);
+}
+.match-item .photo,
+.match-item .ph {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+}
+.match-item strong {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.match-score {
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--ink-soft);
+  letter-spacing: 0.04em;
+}
+
 @media (min-width: 900px) {
   .catalog-layout {
     grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.2fr);

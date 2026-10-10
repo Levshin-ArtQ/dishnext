@@ -11,6 +11,7 @@ import {
   upsertOverrides
 } from "./domain/overrides";
 import type { CatalogOverrides } from "./domain/overrides";
+import { deckFromPriorities } from "./domain/priorities";
 import { DEFAULT_PROFILE, normalizeProfile } from "./domain/ranking";
 import { buildReport } from "./domain/report";
 import {
@@ -173,6 +174,31 @@ export function App() {
       prepared.deck.map((d) => d.id)
     );
     preload(prepared.deck.map((d) => d.imageUrl), "medium");
+    setSession(next);
+    setView("swipe");
+  };
+
+  const startWeightedDeck = (
+    excludeIds: string[] = [],
+    nextMode: Mode = mode,
+    nextConstraints: Constraints = constraints
+  ) => {
+    if (!catalog) return;
+    const recent = history.map((h) => h.winnerId).filter(Boolean) as string[];
+    const deck = deckFromPriorities(catalog.dishes, profile, {
+      constraints: normalizeConstraints(nextConstraints),
+      mode: nextMode,
+      excludeIds: [...recent, ...excludeIds]
+    });
+    if (deck.length === 0) return;
+    const next = createSession(
+      nextMode,
+      normalizeConstraints(nextConstraints),
+      deck.map((d) => d.id)
+    );
+    preload(deck.map((d) => d.imageUrl), "medium");
+    setMode(nextMode);
+    setConstraints(normalizeConstraints(nextConstraints));
     setSession(next);
     setView("swipe");
   };
@@ -428,6 +454,10 @@ export function App() {
             setView("home");
           }}
           onEdit={() => winner && openCatalog(winner.id)}
+          onMoreByWeights={() => {
+            const exclude = [session.winnerId, ...session.runnerUpIds].filter((id): id is string => Boolean(id));
+            startWeightedDeck(exclude, session.mode, session.constraints);
+          }}
         />
       )}
       {view === "recipe" && (recipeDishId || winner) && (
@@ -447,6 +477,9 @@ export function App() {
       {view === "taste" && (
         <Taste
           profile={profile}
+          dishes={catalog.dishes}
+          constraints={constraints}
+          mode={mode}
           onChange={setProfile}
           onClear={async () => {
             setProfile(DEFAULT_PROFILE);
@@ -455,6 +488,7 @@ export function App() {
             await storage.clearTaste();
             setView("home");
           }}
+          onStartDeck={(excludeIds) => startWeightedDeck(excludeIds)}
           onBack={() => setView("home")}
         />
       )}

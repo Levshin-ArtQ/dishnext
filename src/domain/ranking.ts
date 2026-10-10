@@ -69,6 +69,20 @@ export function deckSizeFor(mode: Mode, override?: number): number {
   return 16;
 }
 
+/** Preference term P of S = wpP + wcC + wnN + wvV − wrR. */
+export function preferenceScore(dish: Dish, profile: TasteProfile, constraints: Constraints): number {
+  const cuisine = profile.cuisineScores[dish.cuisine] ?? 0;
+  const cats = dish.categories.reduce((sum, c) => sum + (profile.categoryScores[c] ?? 0), 0);
+  const ings = dish.ingredients.reduce((sum, ing) => sum + (profile.ingredientScores[ing] ?? 0), 0);
+  const loved = profile.lovedDishIds.includes(dish.id) ? 1 : 0;
+  const haveHits = matchingNeedles(dish, constraints.haveIngredients);
+  const wantHits = matchingNeedles(dish, constraints.wantedIngredients);
+  const kind = classifyProtein(dish);
+  const proteinBoost = householdProtein(dish) ? 0.62 : kind === "veg" ? -0.14 : kind === "other" ? 0 : 0.04;
+  const pantry = clamp(haveHits.length * 0.18 + wantHits.length * 0.28, 0, 1);
+  return clamp((cuisine * 0.35 + cats * 0.18 + ings * 0.08 + loved * 0.5 + proteinBoost + pantry) / 2.2, 0, 1);
+}
+
 export function scoreDish(
   dish: Dish,
   ctx: {
@@ -81,17 +95,8 @@ export function scoreDish(
 ): { total: number; P: number; C: number; N: number; V: number; R: number } {
   const { profile, mode, deckSoFar, recentWinnerIds } = ctx;
   const w = profile.weights;
-
-  const cuisine = profile.cuisineScores[dish.cuisine] ?? 0;
-  const cats = dish.categories.reduce((sum, c) => sum + (profile.categoryScores[c] ?? 0), 0);
-  const ings = dish.ingredients.reduce((sum, ing) => sum + (profile.ingredientScores[ing] ?? 0), 0);
-  const loved = profile.lovedDishIds.includes(dish.id) ? 1 : 0;
-  const haveHits = matchingNeedles(dish, ctx.constraints.haveIngredients);
-  const wantHits = matchingNeedles(dish, ctx.constraints.wantedIngredients);
+  const P = preferenceScore(dish, profile, ctx.constraints);
   const kind = classifyProtein(dish);
-  const proteinBoost = householdProtein(dish) ? 0.62 : kind === "veg" ? -0.14 : kind === "other" ? 0 : 0.04;
-  const pantry = clamp(haveHits.length * 0.18 + wantHits.length * 0.28, 0, 1);
-  const P = clamp((cuisine * 0.35 + cats * 0.18 + ings * 0.08 + loved * 0.5 + proteinBoost + pantry) / 2.2, 0, 1);
 
   let C = 0.5;
   const appetite = ctx.constraints.appetite;
