@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enrich_catalog import classify_protein as protein_from_ings
 from enrich_catalog import classify_style as style_from_ings
 from local_meals import local_catalog
+from overrides_lib import apply_overrides
 
 CUISINE = {
     "Spanish": "Испанская", "British": "Британская", "Turkish": "Турецкая",
@@ -882,6 +883,7 @@ def main():
         "dishes": dishes,
         "recipes": recipes,
     }
+    catalog = apply_overrides(catalog)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2))
     cuisines = sorted({d["cuisine"] for d in dishes})

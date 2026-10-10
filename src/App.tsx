@@ -1,7 +1,16 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { fetchEditorStatus, loadOverridesFile, publishOverrides, saveOverrides } from "./catalog/editorApi";
 import { LocalCatalogProvider, loadCatalog } from "./catalog/localProvider";
 import { preload, warmCatalogImages } from "./components/Photo";
 import { applyHardFilters, relaxOptional } from "./domain/filters";
+import {
+  applyOverrides,
+  dishPatchFrom,
+  emptyOverrides,
+  recipePatchFrom,
+  upsertOverrides
+} from "./domain/overrides";
+import type { CatalogOverrides } from "./domain/overrides";
 import { DEFAULT_PROFILE, normalizeProfile } from "./domain/ranking";
 import { buildReport } from "./domain/report";
 import {
@@ -18,9 +27,10 @@ import {
   undoReaction
 } from "./domain/session";
 import { chooseWinner, skipPair, tournamentChampion, undoTournament } from "./domain/tournament";
+import { CatalogScreen } from "./screens/Catalog";
 import { Favorites } from "./screens/Favorites";
 import { Home } from "./screens/Home";
-import { Recipe } from "./screens/Recipe";
+import { Recipe as RecipeScreen } from "./screens/Recipe";
 import { Result } from "./screens/Result";
 import { Setup } from "./screens/Setup";
 import { Swipe } from "./screens/Swipe";
@@ -34,15 +44,17 @@ import type {
   Favorite,
   Mode,
   ReactionKind,
+  Recipe,
   Session,
   SessionSummary,
   TasteProfile
 } from "./types";
 
-type View = "home" | "setup" | "swipe" | "tournament" | "result" | "recipe" | "taste" | "favorites";
+type View = "home" | "setup" | "swipe" | "tournament" | "result" | "recipe" | "taste" | "favorites" | "catalog";
 
 export function App() {
-  const [catalog, setCatalog] = useState<Catalog | null>(null);
+  const [baseCatalog, setBaseCatalog] = useState<Catalog | null>(null);
+  const [overrides, setOverrides] = useState<CatalogOverrides>(emptyOverrides);
   const [error, setError] = useState<string | null>(null);
   const [view, setView] = useState<View>("home");
   const [mode, setMode] = useState<Mode>("feed");
@@ -52,8 +64,18 @@ export function App() {
   const [favorites, setFavorites] = useState<Favorite[]>([]);
   const [history, setHistory] = useState<SessionSummary[]>([]);
   const [recipeDishId, setRecipeDishId] = useState<string | null>(null);
+  const [editDishId, setEditDishId] = useState<string | null>(null);
+  const [editorWritable, setEditorWritable] = useState(false);
+  const [editorGit, setEditorGit] = useState(false);
+  const [editorStatus, setEditorStatus] = useState("");
+  const [savingEdit, setSavingEdit] = useState(false);
+  const [publishing, setPublishing] = useState(false);
   const [boot, setBoot] = useState(true);
 
+  const catalog = useMemo(
+    () => (baseCatalog ? applyOverrides(baseCatalog, overrides) : null),
+    [baseCatalog, overrides]
+  );
   const provider = useMemo(() => (catalog ? new LocalCatalogProvider(catalog) : null), [catalog]);
   const dishesById = useMemo(() => {
     const map = new Map<string, Dish>();
@@ -65,9 +87,12 @@ export function App() {
     let cancelled = false;
     (async () => {
       try {
-        const data = await loadCatalog();
+        const [data, ov, editor] = await Promise.all([loadCatalog(), loadOverridesFile(), fetchEditorStatus()]);
         if (cancelled) return;
-        setCatalog(data);
+        setBaseCatalog(data);
+        setOverrides(ov);
+        setEditorWritable(editor.writable);
+        setEditorGit(editor.git);
         setBoot(false);
         warmCatalogImages(data.dishes.map((d) => d.imageUrl));
         const [savedSession, savedProfile, savedFav, savedHistory] = await Promise.all([
@@ -231,6 +256,37 @@ export function App() {
     await storage.setFavorites(next);
   };
 
+  const openCatalog = (dishId?: string) => {
+    setEditDishId(dishId ?? null);
+    setView("catalog");
+  };
+
+  const saveDishEdit = async (dish: Dish, recipe?: Recipe) => {
+    if (!baseCatalog) return;
+    const baseDish = baseCatalog.dishes.find((d) => d.id === dish.id);
+    if (!baseDish) return;
+    const dishPatch = dishPatchFrom(baseDish, dish);
+    const baseRecipe = recipe ? baseCatalog.recipes.find((r) => r.id === recipe.id) : undefined;
+    const recipePatch = baseRecipe && recipe ? recipePatchFrom(baseRecipe, recipe) : null;
+    const next = upsertOverrides(overrides, dish.id, dishPatch, recipe?.id, recipePatch);
+    setOverrides(next);
+    if (!editorWritable) {
+      setEditorStatus("На этом адресе файлы не пишутся. Откройте http://localhost:8772");
+      return;
+    }
+    setSavingEdit(true);
+    const result = await saveOverrides(next);
+    setSavingEdit(false);
+    setEditorStatus(result.message);
+  };
+
+  const publishEdits = async () => {
+    setPublishing(true);
+    const result = await publishOverrides();
+    setPublishing(false);
+    setEditorStatus(result.message);
+  };
+
   if (boot) {
     return (
       <div className="app-shell">
@@ -249,7 +305,7 @@ export function App() {
   }
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${view === "catalog" ? "is-wide" : ""}`}>
       {view === "home" && (
         <Home
           lastWinner={lastWinner}
@@ -262,6 +318,23 @@ export function App() {
           }}
           onTaste={() => setView("taste")}
           onFavorites={() => setView("favorites")}
+          onCatalog={() => openCatalog()}
+        />
+      )}
+      {view === "catalog" && (
+        <CatalogScreen
+          dishes={catalog.dishes}
+          recipeFor={(id) => provider?.recipeFor(id)}
+          overrides={overrides}
+          writable={editorWritable}
+          git={editorGit}
+          saving={savingEdit}
+          publishing={publishing}
+          status={editorStatus}
+          initialId={editDishId ?? undefined}
+          onSaveDish={saveDishEdit}
+          onPublish={publishEdits}
+          onBack={() => setView(session && !session.endedAt ? (session.tournament ? "tournament" : "swipe") : "home")}
         />
       )}
       {view === "setup" && (
@@ -292,6 +365,7 @@ export function App() {
           onQuit={() => goTournamentOrResult(session)}
           onCookNow={onCookNow}
           onSave={() => currentDish && toggleFavorite(currentDish.id)}
+          onEdit={() => currentDish && openCatalog(currentDish.id)}
         />
       )}
       {view === "tournament" && session?.tournament && (
@@ -353,10 +427,11 @@ export function App() {
             void storage.setSession(null);
             setView("home");
           }}
+          onEdit={() => winner && openCatalog(winner.id)}
         />
       )}
       {view === "recipe" && (recipeDishId || winner) && (
-        <Recipe
+        <RecipeScreen
           dish={dishesById.get(recipeDishId ?? winner!.id)!}
           recipe={provider?.recipeFor(recipeDishId ?? winner!.id)}
           haveIngredients={session?.constraints.haveIngredients ?? constraints.haveIngredients}

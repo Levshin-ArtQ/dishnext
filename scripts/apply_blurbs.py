@@ -4,10 +4,13 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "public" / "data" / "catalog.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from overrides_lib import apply_overrides
 
 # Russian lines taken from the source page / Wikipedia extract, checked against ingredients.
 BLURB_RU = {
@@ -185,6 +188,7 @@ def main() -> None:
                     dish["description"] = f"{name} — {cuisine} кухня."
                 n += 1
         dish.pop("sourceBlurb", None)
+    catalog = apply_overrides(catalog)
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
     print(f"wrote {n} russian blurbs -> {CATALOG}")
 

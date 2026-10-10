@@ -23,6 +23,7 @@ for (const f of [
   "public/sw.js",
   "public/icons/icon-192.svg",
   "public/data/catalog.json",
+  "public/data/overrides.json",
   "src/App.tsx",
   "src/domain/tournament.ts",
   "README.md"

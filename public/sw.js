@@ -1,7 +1,7 @@
 /* Что поесть — cache-first shell, runtime cache for hashed assets and meal photos. */
-const CACHE = "dishnext-v1.5.0";
+const CACHE = "dishnext-v1.6.0";
 const MEALS = "dishnext-meals-v1";
-const PRECACHE = ["./", "./index.html", "./manifest.json", "./data/catalog.json", "./icons/icon-192.svg", "./icons/icon-512.svg", "./icons/icon-maskable.svg"];
+const PRECACHE = ["./", "./index.html", "./manifest.json", "./data/catalog.json", "./data/overrides.json", "./icons/icon-192.svg", "./icons/icon-512.svg", "./icons/icon-maskable.svg"];
 
 function settled(response) {
   if (!response) return response;

@@ -24,7 +24,8 @@ import {
 import { cardBlurb, detectMethod, heroIngredients } from "../src/domain/cardCopy";
 import { classifyProtein } from "../src/domain/protein";
 import { FEATURED_CUISINES, orderCuisines } from "../src/copy";
-import type { Dish, Recipe, Session } from "../src/types";
+import { applyOverrides, emptyOverrides, looksUntranslated, upsertOverrides } from "../src/domain/overrides";
+import type { Catalog, Dish, Recipe, Session } from "../src/types";
 
 function dish(partial: Partial<Dish> & { id: string; canonicalName: string }): Dish {
   return {
@@ -196,6 +197,44 @@ describe("filters", () => {
     expect(ordered.slice(0, 2)).toEqual(["Итальянская", "Русская"]);
     expect(ordered[0]).toBe(FEATURED_CUISINES[0]);
     expect(ordered.at(-1)).toBe("Польская");
+  });
+});
+
+describe("catalog overrides", () => {
+  const catalog: Catalog = {
+    version: 1,
+    generatedAt: "",
+    source: "test",
+    attribution: "",
+    dishes: [carbonara, pho],
+    recipes: []
+  };
+
+  it("patches a russian name without mutating the base dish", () => {
+    const next = applyOverrides(catalog, {
+      version: 1,
+      updatedAt: "",
+      dishes: { d1: { canonicalName: "Спагетти карбонара" } },
+      recipes: {}
+    });
+    expect(next.dishes[0].canonicalName).toBe("Спагетти карбонара");
+    expect(next.dishes[0].aliases[0]).toBe("Спагетти карбонара");
+    expect(catalog.dishes[0].canonicalName).toBe("Карбонара");
+    expect(next.dishes[1]).toBe(pho);
+  });
+
+  it("flags leftover latin in the russian title", () => {
+    expect(looksUntranslated(carbonara)).toBe(false);
+    expect(
+      looksUntranslated(dish({ id: "x", canonicalName: "Avocado dip с new potatoes", originalName: "Avocado dip" }))
+    ).toBe(true);
+  });
+
+  it("removes a dish override when the patch is empty", () => {
+    const patched = upsertOverrides(emptyOverrides(), "d1", { canonicalName: "Новое" }, undefined, null);
+    expect(patched.dishes.d1?.canonicalName).toBe("Новое");
+    const cleared = upsertOverrides(patched, "d1", null, undefined, null);
+    expect(cleared.dishes.d1).toBeUndefined();
   });
 });
 

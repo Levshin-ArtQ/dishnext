@@ -16,7 +16,8 @@ export function Result({
   onOpenAlt,
   onSave,
   onAgain,
-  onHome
+  onHome,
+  onEdit
 }: {
   winner?: Dish;
   alternatives: Dish[];
@@ -28,6 +29,7 @@ export function Result({
   onSave: () => void;
   onAgain: () => void;
   onHome: () => void;
+  onEdit?: () => void;
 }) {
   if (!winner) {
     return (
@@ -80,6 +82,12 @@ export function Result({
           <Icon name="home" size={16} />
           На главную
         </button>
+        {onEdit && (
+          <button className="secondary" onClick={onEdit}>
+            <Icon name="edit" size={16} />
+            Править
+          </button>
+        )}
       </div>
 
       <CookSheet

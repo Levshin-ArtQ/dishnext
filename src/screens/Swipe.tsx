@@ -27,7 +27,8 @@ export function Swipe({
   onUndo,
   onQuit,
   onCookNow,
-  onSave
+  onSave,
+  onEdit
 }: {
   dish?: Dish;
   recipe?: Recipe;
@@ -42,6 +43,7 @@ export function Swipe({
   onQuit: () => void;
   onCookNow: () => void;
   onSave: () => void;
+  onEdit?: () => void;
 }) {
   const [drag, setDrag] = useState({ x: 0, y: 0, active: false });
   const [exit, setExit] = useState<ReactionKind | null>(null);
@@ -198,6 +200,20 @@ export function Swipe({
                 <Icon name="chef" size={16} />
                 Рецепт
               </button>
+              {onEdit && (
+                <button
+                  className="card-link"
+                  onPointerDown={(e) => e.stopPropagation()}
+                  onPointerUp={(e) => e.stopPropagation()}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onEdit();
+                  }}
+                >
+                  <Icon name="edit" size={16} />
+                  Править
+                </button>
+              )}
             </div>
           </div>
         </article>

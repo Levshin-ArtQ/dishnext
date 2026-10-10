@@ -23,7 +23,8 @@ export type IconName =
   | "search"
   | "skillet"
   | "pot"
-  | "oven";
+  | "oven"
+  | "edit";
 
 const PATHS: Record<IconName, ReactNode> = {
   clock: (
@@ -114,6 +115,12 @@ const PATHS: Record<IconName, ReactNode> = {
       <path d="M6 10h12v7a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-7z" />
       <path d="M9 10V8.2c0-1.6 1.3-2.7 3-2.7s3 1.1 3 2.7V10" />
       <path d="M4 12h2M18 12h2" />
+    </>
+  ),
+  edit: (
+    <>
+      <path d="M4 16.8V20h3.2L17 10.2 13.8 7 4 16.8z" />
+      <path d="M14.6 6.2 17 3.8 20.2 7 17.8 9.4" />
     </>
   ),
   oven: (

@@ -16,6 +16,7 @@ export function Home({
   onMode,
   onTaste,
   onFavorites,
+  onCatalog,
   favoriteCount
 }: {
   lastWinner?: Dish;
@@ -23,6 +24,7 @@ export function Home({
   onMode: (mode: Mode) => void;
   onTaste: () => void;
   onFavorites: () => void;
+  onCatalog: () => void;
   favoriteCount: number;
 }) {
   return (
@@ -34,6 +36,10 @@ export function Home({
           <b>что поесть</b>
         </div>
         <div className="row">
+          <button className="text-btn" onClick={onCatalog}>
+            <Icon name="edit" size={16} />
+            Каталог
+          </button>
           <button className="text-btn" onClick={onTaste}>
             <Icon name="sliders" size={16} />
             Настройки
