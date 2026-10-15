@@ -2346,6 +2346,144 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_ryba-vetnamski",
+      "canonicalName": "Запеченная рыба по-вьетнамски",
+      "originalName": "Запеченная рыба по-вьетнамски",
+      "aliases": [
+        "Запеченная рыба по-вьетнамски"
+      ],
+      "cuisine": "Вьетнамская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Белая рыба, запечённая в фольге с помидорами, имбирём, мятой и рыбным соусом.",
+      "imageUrl": "/thumbs/house-ryba-vetnamski.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131112336/1202131749090/p_O.jpg",
+      "ingredients": [
+        "помидоры",
+        "рыбный соус",
+        "кунжутное масло",
+        "лимонный сок",
+        "тертый имбирь",
+        "чеснок",
+        "свежая мята",
+        "сахар",
+        "молотый черный перец",
+        "рыба",
+        "морковь",
+        "томатная паста"
+      ],
+      "originalIngredients": [
+        "помидоры",
+        "рыбный соус",
+        "кунжутное масло",
+        "лимонный сок",
+        "тертый имбирь",
+        "чеснок",
+        "свежая мята",
+        "сахар",
+        "молотый черный перец",
+        "рыба",
+        "морковь",
+        "томатная паста"
+      ],
+      "allergens": [
+        "глютен",
+        "рыба",
+        "моллюски",
+        "кунжут"
+      ],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_ryba-vetnamski"
+      ],
+      "source": "house",
+      "sourceId": "ryba-vetnamski",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zapechennaja-riba-po-vetnamski-14354",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/zapechennaja-riba-po-vetnamski-14354). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_vetnamskii-salat-kuritsa",
+      "canonicalName": "Летний салат с курицей по-вьетнамски",
+      "originalName": "Летний салат с курицей по-вьетнамски",
+      "aliases": [
+        "Летний салат с курицей по-вьетнамски"
+      ],
+      "cuisine": "Вьетнамская",
+      "categories": [
+        "Курица",
+        "Закуска"
+      ],
+      "description": "Хрустящий салат с капустой, овощами, зеленью и курицей в кисло-острой заправке.",
+      "imageUrl": "/thumbs/house-vetnamskii-salat-kuritsa.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/2/b1/2b134b86fc2240679df0409efa110b4f.jpg",
+      "ingredients": [
+        "куриное филе",
+        "лимон",
+        "чеснок",
+        "китайская капуста",
+        "красный лук",
+        "сладкий перец",
+        "огурцы",
+        "морковь",
+        "перец чили",
+        "свежая мята",
+        "кинза",
+        "лайм",
+        "рисовый уксус",
+        "рыбный соус",
+        "кунжутное масло",
+        "сахар",
+        "арахис",
+        "лавровый лист"
+      ],
+      "originalIngredients": [
+        "куриное филе",
+        "лимон",
+        "чеснок",
+        "китайская капуста",
+        "красный лук",
+        "сладкий перец",
+        "огурцы",
+        "морковь",
+        "перец чили",
+        "свежая мята",
+        "кинза",
+        "лайм",
+        "рисовый уксус",
+        "рыбный соус",
+        "кунжутное масло",
+        "сахар",
+        "арахис",
+        "лавровый лист"
+      ],
+      "allergens": [
+        "рыба",
+        "арахис",
+        "кунжут"
+      ],
+      "preparationMinutes": 20,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_vetnamskii-salat-kuritsa"
+      ],
+      "source": "house",
+      "sourceId": "vetnamskii-salat-kuritsa",
+      "sourceUrl": "https://eda.ru/recepty/salaty/letniy-salat-s-kuricey-po-vetnamski-186426",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/salaty/letniy-salat-s-kuricey-po-vetnamski-186426). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53248",
       "canonicalName": "Лосось noodle wraps",
       "originalName": "Salmon noodle wraps",
@@ -7085,6 +7223,110 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_govyadina-ustrichnyi-sous",
+      "canonicalName": "Говядина с устричным соусом",
+      "originalName": "Говядина с устричным соусом",
+      "aliases": [
+        "Говядина с устричным соусом"
+      ],
+      "cuisine": "Китайская",
+      "categories": [
+        "Говядина"
+      ],
+      "description": "Ломтики говядины с брокколи, имбирём и устричным соусом из вока — за 15 минут.",
+      "imageUrl": "/thumbs/house-govyadina-ustrichnyi-sous.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/150615095301/150617122439/p_O.jpg",
+      "ingredients": [
+        "свежая кинза (кориандр)",
+        "репчатый лук",
+        "говяжье филе",
+        "капуста брокколи",
+        "корень имбиря",
+        "лимон",
+        "растительное масло",
+        "устричный соус"
+      ],
+      "originalIngredients": [
+        "свежая кинза (кориандр)",
+        "репчатый лук",
+        "говяжье филе",
+        "капуста брокколи",
+        "корень имбиря",
+        "лимон",
+        "растительное масло",
+        "устричный соус"
+      ],
+      "allergens": [],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_govyadina-ustrichnyi-sous"
+      ],
+      "source": "house",
+      "sourceId": "govyadina-ustrichnyi-sous",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/govjadina-s-ustrichnim-sousom-36638",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/govjadina-s-ustrichnim-sousom-36638). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_svinina-porei",
+      "canonicalName": "Жареная свинина с пореем (Cong Bao Rou Si)",
+      "originalName": "Жареная свинина с пореем (Cong Bao Rou Si)",
+      "aliases": [
+        "Жареная свинина с пореем (Cong Bao Rou Si)"
+      ],
+      "cuisine": "Китайская",
+      "categories": [
+        "Свинина"
+      ],
+      "description": "Полоски свиной вырезки в соево-кунжутном маринаде, обжаренные в воке с пореем.",
+      "imageUrl": "/thumbs/house-svinina-porei.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131083524/120214133304/p_O.jpg",
+      "ingredients": [
+        "кунжутное масло",
+        "свиная вырезка",
+        "соевый соус",
+        "кукурузный крахмал",
+        "сахар",
+        "чеснок",
+        "масло канолы",
+        "лук-порей"
+      ],
+      "originalIngredients": [
+        "кунжутное масло",
+        "свиная вырезка",
+        "соевый соус",
+        "кукурузный крахмал",
+        "сахар",
+        "чеснок",
+        "масло канолы",
+        "лук-порей"
+      ],
+      "allergens": [
+        "глютен",
+        "соя",
+        "кунжут"
+      ],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_svinina-porei"
+      ],
+      "source": "house",
+      "sourceId": "svinina-porei",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharenaja-svinina-s-poreem-cong-bao-rou-si-25754",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/zharenaja-svinina-s-poreem-cong-bao-rou-si-25754). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53372",
       "canonicalName": "Жареные яйца с томатами",
       "originalName": "Chinese Tomato Egg Stir Fry",
@@ -7340,6 +7582,203 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_kuritsa-gunbao",
+      "canonicalName": "Курица гунбао",
+      "originalName": "Курица гунбао",
+      "aliases": [
+        "Курица гунбао"
+      ],
+      "cuisine": "Китайская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Сычуаньская курица с арахисом, пореем и сушёным чили в кисло-сладком соусе.",
+      "imageUrl": "/thumbs/house-kuritsa-gunbao.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131082342/170427151801/p_O.jpg",
+      "ingredients": [
+        "куриное филе",
+        "соевый соус",
+        "рисовое китайское вино",
+        "кукурузный крахмал",
+        "арахисовое масло",
+        "сычуаньский перец",
+        "зеленый лук",
+        "очищенный несоленый арахис",
+        "чеснок",
+        "имбирь",
+        "черный рисовый уксус",
+        "чили-паста",
+        "сушеный перец чили",
+        "лук-порей",
+        "сахар"
+      ],
+      "originalIngredients": [
+        "куриное филе",
+        "соевый соус",
+        "рисовое китайское вино",
+        "кукурузный крахмал",
+        "арахисовое масло",
+        "сычуаньский перец",
+        "зеленый лук",
+        "очищенный несоленый арахис",
+        "чеснок",
+        "имбирь",
+        "черный рисовый уксус",
+        "чили-паста",
+        "сушеный перец чили",
+        "лук-порей",
+        "сахар"
+      ],
+      "allergens": [
+        "глютен",
+        "арахис",
+        "соя"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kuritsa-gunbao"
+      ],
+      "source": "house",
+      "sourceId": "kuritsa-gunbao",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-gunbao-92734",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurica-gunbao-92734). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_lapsha-kuritsa-soevo-medovaya",
+      "canonicalName": "Пшеничная лапша с курицей в соево-медовом соусе",
+      "originalName": "Пшеничная лапша с курицей в соево-медовом соусе",
+      "aliases": [
+        "Пшеничная лапша с курицей в соево-медовом соусе"
+      ],
+      "cuisine": "Китайская",
+      "categories": [
+        "Курица",
+        "Паста"
+      ],
+      "description": "Пшеничная лапша с соломкой курицы, морковью, перцем и фасолью в соево-медовом соусе.",
+      "imageUrl": "/thumbs/house-lapsha-kuritsa-soevo-medovaya.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131082810/150830192131/p_O.jpg",
+      "ingredients": [
+        "куриное филе",
+        "пшеничная лапша",
+        "морковь",
+        "сладкий перец",
+        "стручковая фасоль",
+        "мед",
+        "кетчуп",
+        "светлый соевый соус",
+        "темный соевый соус",
+        "рисовый уксус",
+        "сахар",
+        "чили-паста с чесноком",
+        "растительное масло",
+        "чеснок",
+        "имбирь"
+      ],
+      "originalIngredients": [
+        "куриное филе",
+        "пшеничная лапша",
+        "морковь",
+        "сладкий перец",
+        "стручковая фасоль",
+        "мед",
+        "кетчуп",
+        "светлый соевый соус",
+        "темный соевый соус",
+        "рисовый уксус",
+        "сахар",
+        "чили-паста с чесноком",
+        "растительное масло",
+        "чеснок",
+        "имбирь"
+      ],
+      "allergens": [
+        "глютен",
+        "соя"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_lapsha-kuritsa-soevo-medovaya"
+      ],
+      "source": "house",
+      "sourceId": "lapsha-kuritsa-soevo-medovaya",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pshenichnaja-lapsha-s-kuricej-v-soevo-medovom-souse-47815",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/pshenichnaja-lapsha-s-kuricej-v-soevo-medovom-souse-47815). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_svinina-kislo-sladkaya",
+      "canonicalName": "Свинина в кисло-сладком соусе",
+      "originalName": "Свинина в кисло-сладком соусе",
+      "aliases": [
+        "Свинина в кисло-сладком соусе"
+      ],
+      "cuisine": "Китайская",
+      "categories": [
+        "Свинина"
+      ],
+      "description": "Свиная шея в крахмале с разноцветным перцем, ананасом и шиитаке в кисло-сладком соусе.",
+      "imageUrl": "/thumbs/house-svinina-kislo-sladkaya.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/131215224100/131220192244/p_O.jpg",
+      "ingredients": [
+        "сладкий перец",
+        "свиная шея",
+        "репчатый лук",
+        "консервированный ананас",
+        "грибы шиитаке",
+        "крахмал",
+        "сахар",
+        "кетчуп",
+        "соевый соус",
+        "мирин",
+        "уксус для суши",
+        "растительное масло"
+      ],
+      "originalIngredients": [
+        "сладкий перец",
+        "свиная шея",
+        "репчатый лук",
+        "консервированный ананас",
+        "грибы шиитаке",
+        "крахмал",
+        "сахар",
+        "кетчуп",
+        "соевый соус",
+        "мирин",
+        "уксус для суши",
+        "растительное масло"
+      ],
+      "allergens": [
+        "глютен",
+        "соя"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_svinina-kislo-sladkaya"
+      ],
+      "source": "house",
+      "sourceId": "svinina-kislo-sladkaya",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/svinina-v-kislo-sladkom-souse-40768",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/svinina-v-kislo-sladkom-souse-40768). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53373",
       "canonicalName": "Спринг-роллы в аэрогриле",
       "originalName": "Air Fryer Egg Rolls",
@@ -7534,6 +7973,180 @@
       "sourceUrl": "https://www.mycolombianrecipes.com/colombian-style-stuffed-potatoes-papas-rellenas-colombianas/#recipe",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_pulkogi",
+      "canonicalName": "Мясо по-корейски пулькоги",
+      "originalName": "Мясо по-корейски пулькоги",
+      "aliases": [
+        "Мясо по-корейски пулькоги"
+      ],
+      "cuisine": "Корейская",
+      "categories": [
+        "Говядина"
+      ],
+      "description": "Тонкие ломтики говядины в грушевом маринаде с имбирём и кунжутным маслом.",
+      "imageUrl": "/thumbs/house-pulkogi.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120213175433/180412181845/p_O.jpg",
+      "ingredients": [
+        "говяжья вырезка",
+        "китайские груши",
+        "репчатый лук",
+        "имбирь",
+        "зеленый лук",
+        "соевый соус",
+        "коричневый сахар",
+        "кунжутное масло",
+        "чеснок"
+      ],
+      "originalIngredients": [
+        "говяжья вырезка",
+        "китайские груши",
+        "репчатый лук",
+        "имбирь",
+        "зеленый лук",
+        "соевый соус",
+        "коричневый сахар",
+        "кунжутное масло",
+        "чеснок"
+      ],
+      "allergens": [
+        "глютен",
+        "соя",
+        "кунжут"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_pulkogi"
+      ],
+      "source": "house",
+      "sourceId": "pulkogi",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pulkogi-114840",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/pulkogi-114840). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_ogurtsy-myaso-koreiski",
+      "canonicalName": "Огурцы с мясом по-корейски",
+      "originalName": "Огурцы с мясом по-корейски",
+      "aliases": [
+        "Огурцы с мясом по-корейски"
+      ],
+      "cuisine": "Корейская",
+      "categories": [
+        "Говядина",
+        "Закуска"
+      ],
+      "description": "Тёплый салат: огурцы, ошпаренные горячим маслом с говядиной, перцем и чесноком.",
+      "imageUrl": "/thumbs/house-ogurtsy-myaso-koreiski.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/121120172110/150528000259/p_O.jpg",
+      "ingredients": [
+        "английские огурцы",
+        "говядина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "чеснок",
+        "молотый красный перец",
+        "сахар",
+        "молотый кориандр",
+        "уксус 5%-ный",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "originalIngredients": [
+        "английские огурцы",
+        "говядина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "чеснок",
+        "молотый красный перец",
+        "сахар",
+        "молотый кориандр",
+        "уксус 5%-ный",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "allergens": [
+        "глютен",
+        "соя"
+      ],
+      "preparationMinutes": 40,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_ogurtsy-myaso-koreiski"
+      ],
+      "source": "house",
+      "sourceId": "ogurtsy-myaso-koreiski",
+      "sourceUrl": "https://eda.ru/recepty/salaty/ogurci-s-mjasom-po-korejski-50810",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/salaty/ogurci-s-mjasom-po-korejski-50810). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_funchoza-ovoshchi",
+      "canonicalName": "Фунчоза с овощами по-корейски",
+      "originalName": "Фунчоза с овощами по-корейски",
+      "aliases": [
+        "Фунчоза с овощами по-корейски"
+      ],
+      "cuisine": "Корейская",
+      "categories": [
+        "Вегетарианское",
+        "Закуска"
+      ],
+      "description": "Стеклянная лапша с хрустящими морковью, перцем и огурцом в чесночно-соевой заправке.",
+      "imageUrl": "/thumbs/house-funchoza-ovoshchi.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/131014225425/131030101442/p_O.jpg",
+      "ingredients": [
+        "фунчоза",
+        "морковь",
+        "сладкий перец",
+        "огурцы",
+        "чеснок",
+        "уксус",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "originalIngredients": [
+        "фунчоза",
+        "морковь",
+        "сладкий перец",
+        "огурцы",
+        "чеснок",
+        "уксус",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "allergens": [
+        "глютен",
+        "соя"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_funchoza-ovoshchi"
+      ],
+      "source": "house",
+      "sourceId": "funchoza-ovoshchi",
+      "sourceUrl": "https://eda.ru/recepty/salaty/funchoza-s-ovoschami-26370",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/salaty/funchoza-s-ovoschami-26370). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_53546",
@@ -12371,6 +12984,184 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_pad-kapao",
+      "canonicalName": "Тайская жареная курица пад-капао",
+      "originalName": "Тайская жареная курица пад-капао",
+      "aliases": [
+        "Тайская жареная курица пад-капао"
+      ],
+      "cuisine": "Тайская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Острая курица с базиликом, чесноком и чили в устричном соусе, с глазуньей.",
+      "imageUrl": "/thumbs/house-pad-kapao.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120214125404/180820210734/p_O.jpg",
+      "ingredients": [
+        "филе куриного бедра",
+        "устричный соус",
+        "соевый соус",
+        "тростниковый сахар",
+        "растительное масло",
+        "чеснок",
+        "тайский острый перец птичий глаз",
+        "куриное яйцо",
+        "базилик"
+      ],
+      "originalIngredients": [
+        "филе куриного бедра",
+        "устричный соус",
+        "соевый соус",
+        "тростниковый сахар",
+        "растительное масло",
+        "чеснок",
+        "тайский острый перец птичий глаз",
+        "куриное яйцо",
+        "базилик"
+      ],
+      "allergens": [
+        "глютен",
+        "яйца",
+        "соя"
+      ],
+      "preparationMinutes": 20,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_pad-kapao"
+      ],
+      "source": "house",
+      "sourceId": "pad-kapao",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pad-kapao-125397",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/pad-kapao-125397). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_lab-kuritsa",
+      "canonicalName": "Тайский куриный салат «Лаб»",
+      "originalName": "Тайский куриный салат «Лаб»",
+      "aliases": [
+        "Тайский куриный салат «Лаб»"
+      ],
+      "cuisine": "Тайская",
+      "categories": [
+        "Курица",
+        "Закуска"
+      ],
+      "description": "Тёплый салат из куриного фарша с лимонной травой, лаймом, мятой и кинзой.",
+      "imageUrl": "/thumbs/house-lab-kuritsa.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120213175433/180412182451/p_O.jpg",
+      "ingredients": [
+        "арахисовое масло",
+        "куриный фарш",
+        "лимонная трава",
+        "зеленый перец чили",
+        "лайм",
+        "рыбный соус",
+        "сладкий соус чили",
+        "красный лук",
+        "кинза",
+        "свежая мята",
+        "жареный арахис"
+      ],
+      "originalIngredients": [
+        "арахисовое масло",
+        "куриный фарш",
+        "лимонная трава",
+        "зеленый перец чили",
+        "лайм",
+        "рыбный соус",
+        "сладкий соус чили",
+        "красный лук",
+        "кинза",
+        "свежая мята",
+        "жареный арахис"
+      ],
+      "allergens": [
+        "рыба",
+        "арахис"
+      ],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_lab-kuritsa"
+      ],
+      "source": "house",
+      "sourceId": "lab-kuritsa",
+      "sourceUrl": "https://eda.ru/recepty/salaty/lab-114841",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/salaty/lab-114841). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_tom-kha-gai",
+      "canonicalName": "Тайский куриный суп том кха гай",
+      "originalName": "Тайский куриный суп том кха гай",
+      "aliases": [
+        "Тайский куриный суп том кха гай"
+      ],
+      "cuisine": "Тайская",
+      "categories": [
+        "Курица",
+        "Суп"
+      ],
+      "description": "Кокосовый куриный суп с галангалом, лемонграссом, вешенками и лаймом.",
+      "imageUrl": "/thumbs/house-tom-kha-gai.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170224135654/191007120650/p_O.jpg",
+      "ingredients": [
+        "кокосовое молоко",
+        "куриная грудка",
+        "галангал",
+        "лимонная трава",
+        "репчатый лук",
+        "помидоры",
+        "листья лайма",
+        "вешенки",
+        "тайский острый перец птичий глаз",
+        "соль",
+        "сок лайма",
+        "кинза"
+      ],
+      "originalIngredients": [
+        "кокосовое молоко",
+        "куриная грудка",
+        "галангал",
+        "лимонная трава",
+        "репчатый лук",
+        "помидоры",
+        "листья лайма",
+        "вешенки",
+        "тайский острый перец птичий глаз",
+        "соль",
+        "сок лайма",
+        "кинза"
+      ],
+      "allergens": [
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_tom-kha-gai"
+      ],
+      "source": "house",
+      "sourceId": "tom-kha-gai",
+      "sourceUrl": "https://eda.ru/recepty/supy/tom-kha-gay-50328",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/tom-kha-gay-50328). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52814",
       "canonicalName": "Тайское зелёное карри",
       "originalName": "Thai Green Curry",
@@ -14465,6 +15256,64 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_kuritsa-teriyaki",
+      "canonicalName": "Курица терияки",
+      "originalName": "Курица терияки",
+      "aliases": [
+        "Курица терияки"
+      ],
+      "cuisine": "Японская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Кусочки куриного филе в блестящей глазури из соевого соуса, саке и имбиря.",
+      "imageUrl": "/thumbs/house-kuritsa-teriyaki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120214134655/180927184521/p_O.jpg",
+      "ingredients": [
+        "куриное филе",
+        "легкий соевый соус",
+        "коричневый сахар",
+        "имбирь",
+        "репчатый лук",
+        "чеснок",
+        "саке",
+        "растительное масло",
+        "кунжут",
+        "зеленый лук"
+      ],
+      "originalIngredients": [
+        "куриное филе",
+        "легкий соевый соус",
+        "коричневый сахар",
+        "имбирь",
+        "репчатый лук",
+        "чеснок",
+        "саке",
+        "растительное масло",
+        "кунжут",
+        "зеленый лук"
+      ],
+      "allergens": [
+        "глютен",
+        "соя",
+        "кунжут"
+      ],
+      "preparationMinutes": 45,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kuritsa-teriyaki"
+      ],
+      "source": "house",
+      "sourceId": "kuritsa-teriyaki",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-teriyaki-125574",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurica-teriyaki-125574). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52773",
       "canonicalName": "Лосось терияки с мёдом",
       "originalName": "Honey Teriyaki Salmon",
@@ -14570,6 +15419,64 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_udon-kuritsa",
+      "canonicalName": "Удон с курицей",
+      "originalName": "Удон с курицей",
+      "aliases": [
+        "Удон с курицей"
+      ],
+      "cuisine": "Японская",
+      "categories": [
+        "Курица",
+        "Паста"
+      ],
+      "description": "Лапша удон с курицей, перцем, стручковой фасолью, мини-кукурузой и пак-чоем.",
+      "imageUrl": "/thumbs/house-udon-kuritsa.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/131215224100/131220192506/p_O.jpg",
+      "ingredients": [
+        "лапша удон",
+        "куриное филе",
+        "сладкий перец",
+        "стручковая фасоль",
+        "салат пак-чой",
+        "мини-кукуруза",
+        "ростки сои",
+        "растительное масло",
+        "соевый соус",
+        "устричный соус"
+      ],
+      "originalIngredients": [
+        "лапша удон",
+        "куриное филе",
+        "сладкий перец",
+        "стручковая фасоль",
+        "салат пак-чой",
+        "мини-кукуруза",
+        "ростки сои",
+        "растительное масло",
+        "соевый соус",
+        "устричный соус"
+      ],
+      "allergens": [
+        "глютен",
+        "соя"
+      ],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_udon-kuritsa"
+      ],
+      "source": "house",
+      "sourceId": "udon-kuritsa",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/udon-s-kuricej-40769",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/udon-s-kuricej-40769). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52871",
       "canonicalName": "Яки удон",
       "originalName": "Yaki Udon",
@@ -14626,6 +15533,68 @@
       "sourceUrl": "https://www.bbcgoodfood.com/recipes/yaki-udon",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_omuraisu",
+      "canonicalName": "Японский омлет омурайсу",
+      "originalName": "Японский омлет омурайсу",
+      "aliases": [
+        "Японский омлет омурайсу"
+      ],
+      "cuisine": "Японская",
+      "categories": [
+        "Курица",
+        "Завтрак"
+      ],
+      "description": "Японский омлет, завёрнутый вокруг жареного риса с курицей, горошком и кетчупом.",
+      "imageUrl": "/thumbs/house-omuraisu.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120213182322/180620102722/p_O.jpg",
+      "ingredients": [
+        "репчатый лук",
+        "курица",
+        "зеленый горошек",
+        "вареный жасминовый рис",
+        "кетчуп",
+        "соевый соус",
+        "растительное масло",
+        "куриное яйцо",
+        "сливки",
+        "петрушка",
+        "соль"
+      ],
+      "originalIngredients": [
+        "репчатый лук",
+        "курица",
+        "зеленый горошек",
+        "вареный жасминовый рис",
+        "кетчуп",
+        "соевый соус",
+        "растительное масло",
+        "куриное яйцо",
+        "сливки",
+        "петрушка",
+        "соль"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "яйца",
+        "соя"
+      ],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_omuraisu"
+      ],
+      "source": "house",
+      "sourceId": "omuraisu",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/omuraysu-124983",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/omuraysu-124983). Шаги сокращены и пересказаны на русском."
     }
   ],
   "recipes": [
@@ -24490,6 +25459,646 @@
         "Посолите, добавьте карри и подавайте горячими."
       ],
       "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharenye-kurinye-serdechki-32069",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kuritsa-teriyaki",
+      "dishId": "house_kuritsa-teriyaki",
+      "title": "Курица терияки",
+      "ingredients": [
+        "куриное филе",
+        "легкий соевый соус",
+        "коричневый сахар",
+        "имбирь",
+        "репчатый лук",
+        "чеснок",
+        "саке",
+        "растительное масло",
+        "кунжут",
+        "зеленый лук"
+      ],
+      "measures": [
+        "600 г",
+        "70 мл",
+        "3 ст. л.",
+        "10 г",
+        "50 г",
+        "2 зубч.",
+        "3 ст. л.",
+        "50 мл",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Натрите имбирь и лук, раздавите чеснок и смешайте с соевым соусом, сахаром и саке.",
+        "Нарежьте филе крупными кусками и замаринуйте на 30 минут.",
+        "Обжарьте курицу на масле со всех сторон до карамельной корочки и отложите.",
+        "Влейте маринад в сковороду и уварите 3–4 минуты.",
+        "Верните курицу и готовьте пару минут, пока она не покроется глазурью. Посыпьте кунжутом и зелёным луком."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-teriyaki-125574",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_udon-kuritsa",
+      "dishId": "house_udon-kuritsa",
+      "title": "Удон с курицей",
+      "ingredients": [
+        "лапша удон",
+        "куриное филе",
+        "сладкий перец",
+        "стручковая фасоль",
+        "салат пак-чой",
+        "мини-кукуруза",
+        "ростки сои",
+        "растительное масло",
+        "соевый соус",
+        "устричный соус"
+      ],
+      "measures": [
+        "300 г",
+        "250 г",
+        "2 шт.",
+        "50 г",
+        "80 г",
+        "50 г",
+        "30 г",
+        "50 мл",
+        "30 мл",
+        "30 мл"
+      ],
+      "instructions": [
+        "Сварите удон по инструкции и откиньте на дуршлаг. Нарежьте фасоль, перец и кукурузу соломкой, пак-чой порвите.",
+        "Обжарьте курицу кусочками на масле около 5 минут, добавьте все овощи, кроме пак-чоя, и соевый соус, жарьте пару минут.",
+        "Добавьте лапшу и пак-чой, влейте устричный соус и аккуратно перемешайте. Подавайте сразу, посыпав ростками сои."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/udon-s-kuricej-40769",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_omuraisu",
+      "dishId": "house_omuraisu",
+      "title": "Японский омлет омурайсу",
+      "ingredients": [
+        "репчатый лук",
+        "курица",
+        "зеленый горошек",
+        "вареный жасминовый рис",
+        "кетчуп",
+        "соевый соус",
+        "растительное масло",
+        "куриное яйцо",
+        "сливки",
+        "петрушка",
+        "соль"
+      ],
+      "measures": [
+        "60 г",
+        "150 г",
+        "30 г",
+        "360 г",
+        "3 ст. л.",
+        "1 ст. л.",
+        "60 мл",
+        "4 шт.",
+        "2 ст. л.",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Обжарьте измельчённый лук до прозрачности, добавьте мелко нарезанную курицу, посолите и жарьте до готовности.",
+        "Добавьте рис, разбейте комочки, вмешайте горошек, кетчуп и соевый соус и снимите с огня.",
+        "Слегка взбейте 2 яйца с ложкой сливок и солью, вылейте на сковороду и помешивайте, пока не начнут схватываться.",
+        "Когда низ готов, а верх ещё влажный, выключите огонь и выложите половину риса.",
+        "Заверните края омлета на рис и переверните на тарелку. Повторите со второй порцией, подавайте с кетчупом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/omuraysu-124983",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kuritsa-gunbao",
+      "dishId": "house_kuritsa-gunbao",
+      "title": "Курица гунбао",
+      "ingredients": [
+        "куриное филе",
+        "соевый соус",
+        "рисовое китайское вино",
+        "кукурузный крахмал",
+        "арахисовое масло",
+        "сычуаньский перец",
+        "зеленый лук",
+        "очищенный несоленый арахис",
+        "чеснок",
+        "имбирь",
+        "черный рисовый уксус",
+        "чили-паста",
+        "сушеный перец чили",
+        "лук-порей",
+        "сахар"
+      ],
+      "measures": [
+        "700 г",
+        "2 ст. л.",
+        "2 ст. л.",
+        "1 ст. л.",
+        "80 мл",
+        "2 ст. л.",
+        "3 стеб.",
+        "75 г",
+        "2 зубч.",
+        "10 г",
+        "1 ст. л.",
+        "1 ст. л.",
+        "12 шт.",
+        "2 шт.",
+        "1 ч. л."
+      ],
+      "instructions": [
+        "Нарежьте грудку кубиком 1,5 см и замаринуйте на 30 минут с частью соевого соуса, рисового вина и крахмала.",
+        "Половину сычуаньского перца измельчите и смешайте с зелёной частью лука.",
+        "Смешайте соус: остатки соевого соуса, вина и крахмала, чёрный уксус, пасту чили и сахар.",
+        "Прогрейте в масле целый сычуаньский перец и сушёный чили 15 секунд.",
+        "На сильном огне обжарьте курицу в воке партиями, затем отдельно — порей кольцами до лёгкой подпалины.",
+        "Соедините курицу, порей, чили и арахис, влейте соус и перемешайте до глянца. Всыпьте лук с перцем и подавайте."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-gunbao-92734",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_svinina-kislo-sladkaya",
+      "dishId": "house_svinina-kislo-sladkaya",
+      "title": "Свинина в кисло-сладком соусе",
+      "ingredients": [
+        "сладкий перец",
+        "свиная шея",
+        "репчатый лук",
+        "консервированный ананас",
+        "грибы шиитаке",
+        "крахмал",
+        "сахар",
+        "кетчуп",
+        "соевый соус",
+        "мирин",
+        "уксус для суши",
+        "растительное масло"
+      ],
+      "measures": [
+        "3 шт.",
+        "400 г",
+        "1 шт.",
+        "50 г",
+        "100 г",
+        "50 г",
+        "100 г",
+        "160 г",
+        "50 мл",
+        "30 мл",
+        "30 мл",
+        "60 мл"
+      ],
+      "instructions": [
+        "Смешайте соус: сахар, кетчуп, соевый соус, уксус для суши и мирин.",
+        "Нарежьте лук полукольцами, перец, грибы и ананас — некрупными кубиками.",
+        "Свинину нарежьте такими же кубиками, обваляйте в крахмале и обжарьте около 7 минут до готовности.",
+        "Добавьте овощи и жарьте на сильном огне 3 минуты, затем вмешайте соус, убавьте огонь и дайте постоять 4 минуты."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/svinina-v-kislo-sladkom-souse-40768",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_lapsha-kuritsa-soevo-medovaya",
+      "dishId": "house_lapsha-kuritsa-soevo-medovaya",
+      "title": "Пшеничная лапша с курицей в соево-медовом соусе",
+      "ingredients": [
+        "куриное филе",
+        "пшеничная лапша",
+        "морковь",
+        "сладкий перец",
+        "стручковая фасоль",
+        "мед",
+        "кетчуп",
+        "светлый соевый соус",
+        "темный соевый соус",
+        "рисовый уксус",
+        "сахар",
+        "чили-паста с чесноком",
+        "растительное масло",
+        "чеснок",
+        "имбирь"
+      ],
+      "measures": [
+        "100 г",
+        "180 г",
+        "35 г",
+        "35 г",
+        "35 г",
+        "17 г",
+        "10 г",
+        "2,75 ст. л.",
+        "1 ч. л.",
+        "½ ч. л.",
+        "35 г",
+        "5 г",
+        "1 ст. л.",
+        "1 г",
+        "1 г"
+      ],
+      "instructions": [
+        "Для соуса прогрейте в сотейнике воду, светлый и тёмный соевый соус, рисовый уксус, кетчуп, пасту чили и мёд.",
+        "Курицу нарежьте соломкой 0,5 см и замаринуйте в оставшемся соевом соусе на 10 минут.",
+        "Отварите лапшу. Морковь и перец нарежьте тонкой соломкой.",
+        "В разогретом воке прогрейте чеснок и имбирь, обжарьте курицу до золотистого цвета, добавьте овощи и фасоль.",
+        "Добавьте лапшу и соус, быстро перемешайте и подавайте."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pshenichnaja-lapsha-s-kuricej-v-soevo-medovom-souse-47815",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_govyadina-ustrichnyi-sous",
+      "dishId": "house_govyadina-ustrichnyi-sous",
+      "title": "Говядина с устричным соусом",
+      "ingredients": [
+        "свежая кинза (кориандр)",
+        "репчатый лук",
+        "говяжье филе",
+        "капуста брокколи",
+        "корень имбиря",
+        "лимон",
+        "растительное масло",
+        "устричный соус"
+      ],
+      "measures": [
+        "10 г",
+        "½ головок",
+        "500 г",
+        "400 г",
+        "10 г",
+        "½ шт.",
+        "50 мл",
+        "50 мл"
+      ],
+      "instructions": [
+        "Нарежьте говядину тонкими ломтиками, имбирь мелко, лук полукольцами. Брокколи отварите 3 минуты.",
+        "В раскалённом воке быстро обжарьте мясо до бронзовой корочки.",
+        "Добавьте лук и имбирь, через минуту — устричный соус и брокколи; жарьте ещё 1–2 минуты.",
+        "Снимите с огня, сбрызните лимонным соком и посыпьте кинзой."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/govjadina-s-ustrichnim-sousom-36638",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_pulkogi",
+      "dishId": "house_pulkogi",
+      "title": "Мясо по-корейски пулькоги",
+      "ingredients": [
+        "говяжья вырезка",
+        "китайские груши",
+        "репчатый лук",
+        "имбирь",
+        "зеленый лук",
+        "соевый соус",
+        "коричневый сахар",
+        "кунжутное масло",
+        "чеснок"
+      ],
+      "measures": [
+        "500 г",
+        "1 шт.",
+        "1 головки",
+        "10 г",
+        "10 г",
+        "2 ст. л.",
+        "2 ст. л.",
+        "1 ст. л.",
+        "4 зубч."
+      ],
+      "instructions": [
+        "Очищенную грушу и лук пробейте в блендере в пюре.",
+        "Смешайте пюре с рубленым имбирём, чесноком, зелёным луком, соевым соусом, сахаром и кунжутным маслом.",
+        "Нарежьте мясо очень тонко, смешайте с маринадом и уберите в холодильник минимум на 30 минут.",
+        "Обжарьте на гриле или сковороде и подавайте, заворачивая в листья салата."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pulkogi-114840",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_funchoza-ovoshchi",
+      "dishId": "house_funchoza-ovoshchi",
+      "title": "Фунчоза с овощами по-корейски",
+      "ingredients": [
+        "фунчоза",
+        "морковь",
+        "сладкий перец",
+        "огурцы",
+        "чеснок",
+        "уксус",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "measures": [
+        "100 г",
+        "1,5 шт.",
+        "1 шт.",
+        "1 шт.",
+        "3 зубч.",
+        "3 ч. л.",
+        "по вкусу",
+        "по вкусу",
+        "2 ст. л."
+      ],
+      "instructions": [
+        "Залейте фунчозу кипятком на 5 минут, посолите, затем промойте холодной водой.",
+        "Нарежьте морковь, перец и огурец тонкой соломкой, чеснок мелко.",
+        "Слегка спассеруйте морковь с перцем, в конце добавьте чеснок.",
+        "Смешайте лапшу с овощами и огурцом, заправьте уксусом и соевым соусом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/salaty/funchoza-s-ovoschami-26370",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_ogurtsy-myaso-koreiski",
+      "dishId": "house_ogurtsy-myaso-koreiski",
+      "title": "Огурцы с мясом по-корейски",
+      "ingredients": [
+        "английские огурцы",
+        "говядина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "чеснок",
+        "молотый красный перец",
+        "сахар",
+        "молотый кориандр",
+        "уксус 5%-ный",
+        "соевый соус",
+        "соль",
+        "растительное масло"
+      ],
+      "measures": [
+        "2 шт.",
+        "400 г",
+        "1 шт.",
+        "1 шт.",
+        "2 зубч.",
+        "1 ч. л.",
+        "1,2 ч. л.",
+        "1 ч. л.",
+        "2 ст. л.",
+        "4 ст. л.",
+        "1 ч. л.",
+        "3 ст. л."
+      ],
+      "instructions": [
+        "Огурцы нарежьте брусочками, посолите и оставьте на 15–20 минут, затем слейте сок.",
+        "Выложите на огурцы красный перец, кориандр, чеснок и сахар.",
+        "Говядину нарежьте тонкой соломкой и обжарьте на сильном огне до испарения жидкости и лёгкой румяности, с луком.",
+        "Сразу вылейте содержимое сковороды на огурцы, сверху положите соломку перца и залейте уксусом.",
+        "Через 5 минут перемешайте; подавайте тёплым или охлаждённым."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/salaty/ogurci-s-mjasom-po-korejski-50810",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_pad-kapao",
+      "dishId": "house_pad-kapao",
+      "title": "Тайская жареная курица пад-капао",
+      "ingredients": [
+        "филе куриного бедра",
+        "устричный соус",
+        "соевый соус",
+        "тростниковый сахар",
+        "растительное масло",
+        "чеснок",
+        "тайский острый перец птичий глаз",
+        "куриное яйцо",
+        "базилик"
+      ],
+      "measures": [
+        "500 г",
+        "2 ст. л.",
+        "1 ст. л.",
+        "1 ч. л.",
+        "60 мл",
+        "2 зубч.",
+        "4 шт.",
+        "2 шт.",
+        "20 г"
+      ],
+      "instructions": [
+        "Смешайте соевый соус с сахаром и устричным соусом.",
+        "Поджарьте глазунью.",
+        "В воке 30 секунд обжарьте чеснок и чили, добавьте мелко нарезанное мясо бёдер и жарьте до готовности.",
+        "Влейте соус и перемешайте, снимите с огня и вмешайте листья базилика. Подавайте с яичницей и рисом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/pad-kapao-125397",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_lab-kuritsa",
+      "dishId": "house_lab-kuritsa",
+      "title": "Тайский куриный салат «Лаб»",
+      "ingredients": [
+        "арахисовое масло",
+        "куриный фарш",
+        "лимонная трава",
+        "зеленый перец чили",
+        "лайм",
+        "рыбный соус",
+        "сладкий соус чили",
+        "красный лук",
+        "кинза",
+        "свежая мята",
+        "жареный арахис"
+      ],
+      "measures": [
+        "40 мл",
+        "500 г",
+        "1 стеб.",
+        "1 шт.",
+        "2 шт.",
+        "1 ст. л.",
+        "1 ст. л.",
+        "1 головки",
+        "30 г",
+        "15 г",
+        "40 г"
+      ],
+      "instructions": [
+        "Разогрейте в воке половину масла на максимальном огне.",
+        "Обжарьте половину фарша с лимонной травой и чили 2–3 минуты, разбивая комочки. Повторите со второй половиной.",
+        "Смешайте цедру и сок лаймов, рыбный соус и сладкий чили и полейте мясо.",
+        "Вмешайте лук соломкой, кинзу и мяту, посыпьте жареным арахисом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/salaty/lab-114841",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_tom-kha-gai",
+      "dishId": "house_tom-kha-gai",
+      "title": "Тайский куриный суп том кха гай",
+      "ingredients": [
+        "кокосовое молоко",
+        "куриная грудка",
+        "галангал",
+        "лимонная трава",
+        "репчатый лук",
+        "помидоры",
+        "листья лайма",
+        "вешенки",
+        "тайский острый перец птичий глаз",
+        "соль",
+        "сок лайма",
+        "кинза"
+      ],
+      "measures": [
+        "6 стак.",
+        "400 г",
+        "1 шт.",
+        "3 шт.",
+        "1 шт.",
+        "2 шт.",
+        "6 шт.",
+        "200 г",
+        "5 шт.",
+        "½ ст. л.",
+        "по вкусу",
+        "1 пучок"
+      ],
+      "instructions": [
+        "Нарежьте галангал полосками, очистите лемонграсс.",
+        "Прогрейте половину кокосового молока с галангалом и лемонграссом.",
+        "Когда начнёт закипать, добавьте курицу кубиками и остальное молоко, убавьте огонь.",
+        "Добавьте кольца чили, вешенки и лук, перемешивая в одном направлении.",
+        "Положите помидоры и листья лайма, томите 10 минут, не давая кипеть. Снимите с огня, добавьте сок лайма и соль."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/tom-kha-gay-50328",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_vetnamskii-salat-kuritsa",
+      "dishId": "house_vetnamskii-salat-kuritsa",
+      "title": "Летний салат с курицей по-вьетнамски",
+      "ingredients": [
+        "куриное филе",
+        "лимон",
+        "чеснок",
+        "китайская капуста",
+        "красный лук",
+        "сладкий перец",
+        "огурцы",
+        "морковь",
+        "перец чили",
+        "свежая мята",
+        "кинза",
+        "лайм",
+        "рисовый уксус",
+        "рыбный соус",
+        "кунжутное масло",
+        "сахар",
+        "арахис",
+        "лавровый лист"
+      ],
+      "measures": [
+        "1 шт.",
+        "½ шт.",
+        "2 зубч.",
+        "250 г",
+        "½ головок",
+        "1 шт.",
+        "1 шт.",
+        "1 шт.",
+        "1 шт.",
+        "1 пучок",
+        "1 пучок",
+        "1 шт.",
+        "2 ст. л.",
+        "40 мл",
+        "60 мл",
+        "1 ст. л.",
+        "50 г",
+        "1 шт."
+      ],
+      "instructions": [
+        "Положите грудку в подсоленную воду с лимоном, лавровым листом и чесноком, доведите до кипения, накройте и снимите с огня на 20 минут.",
+        "Нашинкуйте капусту, морковь, огурец, перец и лук тонкой соломкой, оборвите зелень.",
+        "Заправка: кунжутное масло, сок лайма, рисовый уксус, рыбный соус, сахар, чеснок и чили; дайте постоять 10 минут.",
+        "Разберите курицу на волокна, смешайте с овощами, зеленью и половиной заправки.",
+        "Подавайте, полив остатком заправки и посыпав арахисом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/salaty/letniy-salat-s-kuricey-po-vetnamski-186426",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_svinina-porei",
+      "dishId": "house_svinina-porei",
+      "title": "Жареная свинина с пореем (Cong Bao Rou Si)",
+      "ingredients": [
+        "кунжутное масло",
+        "свиная вырезка",
+        "соевый соус",
+        "кукурузный крахмал",
+        "сахар",
+        "чеснок",
+        "масло канолы",
+        "лук-порей"
+      ],
+      "measures": [
+        "1 ч. л.",
+        "300 г",
+        "1 ч. л.",
+        "½ ч. л.",
+        "¼ ч. л.",
+        "2 зубч.",
+        "2 ст. л.",
+        "1 шт."
+      ],
+      "instructions": [
+        "Нарежьте мясо полосками и перемешайте с кунжутным маслом, соевым соусом, крахмалом, сахаром и половиной чеснока.",
+        "В раскалённом воке на ложке масла минуту обжарьте нарезанный наискосок порей и выньте.",
+        "Влейте оставшееся масло и обжарьте мясо до румяности около 2 минут.",
+        "Верните порей с остатком чеснока и жарьте ещё минуту, помешивая."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharenaja-svinina-s-poreem-cong-bao-rou-si-25754",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_ryba-vetnamski",
+      "dishId": "house_ryba-vetnamski",
+      "title": "Запеченная рыба по-вьетнамски",
+      "ingredients": [
+        "помидоры",
+        "рыбный соус",
+        "кунжутное масло",
+        "лимонный сок",
+        "тертый имбирь",
+        "чеснок",
+        "свежая мята",
+        "сахар",
+        "молотый черный перец",
+        "рыба",
+        "морковь",
+        "томатная паста"
+      ],
+      "measures": [
+        "2 шт.",
+        "2 ст. л.",
+        "1 ч. л.",
+        "1 ст. л.",
+        "2 ч. л.",
+        "1 зубч.",
+        "1 ст. л.",
+        "½ ч. л.",
+        "¼ ч. л.",
+        "360 г",
+        "1 шт.",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Смешайте помидоры и филе белой рыбы с рыбным соусом, лимонным соком, кунжутным маслом, имбирём, чесноком, мятой, сахаром и перцем.",
+        "Выложите на два листа фольги, сверху — брусочки моркови и немного томатной пасты, плотно заверните.",
+        "Запекайте в разогретой духовке около 15 минут и подавайте с рисом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zapechennaja-riba-po-vetnamski-14354",
       "language": "ru"
     }
   ]
