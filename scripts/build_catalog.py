@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enrich_catalog import classify_protein as protein_from_ings
 from enrich_catalog import classify_style as style_from_ings
 from local_meals import local_catalog
+from house_lib import house_catalog
 from overrides_lib import apply_overrides
 
 CUISINE = {
@@ -874,6 +875,9 @@ def main():
         d["isNew"] = True
     dishes.extend(local_dishes)
     recipes.extend(local_recipes)
+    house_dishes, house_recipes = house_catalog()
+    dishes.extend(house_dishes)
+    recipes.extend(house_recipes)
     dishes.sort(key=lambda d: (d["cuisine"], d["canonicalName"]))
     catalog = {
         "version": 2,

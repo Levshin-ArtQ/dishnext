@@ -1,7 +1,7 @@
 {
   "version": 2,
   "generatedAt": "2026-10-10T07:21:26.846930+00:00",
-  "source": "themealdb+local",
+  "source": "themealdb+local+house",
   "attribution": "Каталог собран из TheMealDB и домашних карточек. Подбор блюд на русском; шаги TheMealDB — на языке источника.",
   "dishes": [
     {
@@ -2397,6 +2397,67 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_kotlety-kabachki-feta",
+      "canonicalName": "Греческие котлеты из кабачков и феты",
+      "originalName": "Греческие котлеты из кабачков и феты",
+      "aliases": [
+        "Греческие котлеты из кабачков и феты"
+      ],
+      "cuisine": "Греческая",
+      "categories": [
+        "Вегетарианское"
+      ],
+      "description": "Котлетки из тёртых цукини с фетой, мятой, укропом и зелёным луком.",
+      "imageUrl": "/thumbs/house-kotlety-kabachki-feta.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/170219214134/190906143253/p_O.png",
+      "ingredients": [
+        "цукини",
+        "соль",
+        "молотый черный перец",
+        "репчатый лук",
+        "зеленый лук",
+        "свежая мята",
+        "укроп",
+        "петрушка",
+        "сыр фета",
+        "оливковое масло",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "originalIngredients": [
+        "цукини",
+        "соль",
+        "молотый черный перец",
+        "репчатый лук",
+        "зеленый лук",
+        "свежая мята",
+        "укроп",
+        "петрушка",
+        "сыр фета",
+        "оливковое масло",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "allergens": [
+        "молоко",
+        "яйца"
+      ],
+      "preparationMinutes": 20,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kotlety-kabachki-feta"
+      ],
+      "source": "house",
+      "sourceId": "kotlety-kabachki-feta",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/grecheskie-kotlety-iz-kabachkov-i-fety-137350",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/grecheskie-kotlety-iz-kabachkov-i-fety-137350). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53011",
       "canonicalName": "Греческий салат с курицей и киноа",
       "originalName": "Chicken Quinoa Greek Salad",
@@ -2453,6 +2514,264 @@
       "sourceUrl": "https://www.bbcgoodfood.com/recipes/griddled-chicken-quinoa-greek-salad",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_keftedes",
+      "canonicalName": "Кефтедес",
+      "originalName": "Кефтедес",
+      "aliases": [
+        "Кефтедес"
+      ],
+      "cuisine": "Греческая",
+      "categories": [
+        "Свинина"
+      ],
+      "description": "Греческие котлетки из свиного фарша с мятой и орегано в томатном соусе.",
+      "imageUrl": "/thumbs/house-keftedes.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/8/13/813806212bc94dafab2b3c896fa1be3e.jpg",
+      "ingredients": [
+        "сушеная мята",
+        "оливковое масло",
+        "сушеный орегано",
+        "молотая корица",
+        "молотый мускатный орех",
+        "кайенский перец",
+        "красный лук",
+        "куриное яйцо",
+        "яичный желток",
+        "молоко",
+        "белый хлеб",
+        "пшеничная мука",
+        "свиной фарш",
+        "чеснок",
+        "томатная паста",
+        "лавровый лист",
+        "лимонный сок",
+        "говяжий бульон",
+        "помидоры в собственном соку",
+        "петрушка",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "сушеная мята",
+        "оливковое масло",
+        "сушеный орегано",
+        "молотая корица",
+        "молотый мускатный орех",
+        "кайенский перец",
+        "красный лук",
+        "куриное яйцо",
+        "яичный желток",
+        "молоко",
+        "белый хлеб",
+        "пшеничная мука",
+        "свиной фарш",
+        "чеснок",
+        "томатная паста",
+        "лавровый лист",
+        "лимонный сок",
+        "говяжий бульон",
+        "помидоры в собственном соку",
+        "петрушка",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "яйца",
+        "моллюски",
+        "орехи"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_keftedes"
+      ],
+      "source": "house",
+      "sourceId": "keftedes",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/keftedes-43543",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/keftedes-43543). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_kuritsa-olivki-feta",
+      "canonicalName": "Курица с оливками и сыром фета",
+      "originalName": "Курица с оливками и сыром фета",
+      "aliases": [
+        "Курица с оливками и сыром фета"
+      ],
+      "cuisine": "Греческая",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Куриные бёдра в томатном соусе с оливками каламата и орегано, с фетой и орзо.",
+      "imageUrl": "/thumbs/house-kuritsa-olivki-feta.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/9/c3/9c38a6bc470c4728a541ddcf8ed79eb8.jpg",
+      "ingredients": [
+        "куриные бедра",
+        "репчатый лук",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "оливки каламата",
+        "красное сухое вино",
+        "сушеный орегано",
+        "соль",
+        "сыр фета",
+        "молотый черный перец",
+        "растительное масло",
+        "оливковое масло",
+        "паста орзо"
+      ],
+      "originalIngredients": [
+        "куриные бедра",
+        "репчатый лук",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "оливки каламата",
+        "красное сухое вино",
+        "сушеный орегано",
+        "соль",
+        "сыр фета",
+        "молотый черный перец",
+        "растительное масло",
+        "оливковое масло",
+        "паста орзо"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 50,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kuritsa-olivki-feta"
+      ],
+      "source": "house",
+      "sourceId": "kuritsa-olivki-feta",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-s-olivkami-i-sirom-feta-34964",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurica-s-olivkami-i-sirom-feta-34964). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_suvlaki-dzadziki",
+      "canonicalName": "Сувлаки из курицы с дзадзики",
+      "originalName": "Сувлаки из курицы с дзадзики",
+      "aliases": [
+        "Сувлаки из курицы с дзадзики"
+      ],
+      "cuisine": "Греческая",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Сочные шашлычки из куриных бёдер с орегано и домашним дзадзики.",
+      "imageUrl": "/thumbs/house-suvlaki-dzadziki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170228123352/210428141857/p_O.jpg",
+      "ingredients": [
+        "куриные бедра",
+        "орегано",
+        "белое сухое вино",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "греческий йогурт",
+        "огурцы",
+        "чеснок",
+        "белый уксус"
+      ],
+      "originalIngredients": [
+        "куриные бедра",
+        "орегано",
+        "белое сухое вино",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "греческий йогурт",
+        "огурцы",
+        "чеснок",
+        "белый уксус"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 260,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_suvlaki-dzadziki"
+      ],
+      "source": "house",
+      "sourceId": "suvlaki-dzadziki",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/suvlaki-iz-kuricy-s-dzadziki-140926",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/suvlaki-iz-kuricy-s-dzadziki-140926). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_tsyplenok-rozmarin",
+      "canonicalName": "Цыпленок с розмарином",
+      "originalName": "Цыпленок с розмарином",
+      "aliases": [
+        "Цыпленок с розмарином"
+      ],
+      "cuisine": "Греческая",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Окорочка в муке, обжаренные и томлённые в духовке с белым вином, розмарином и лимоном.",
+      "imageUrl": "/thumbs/house-tsyplenok-rozmarin.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131111615/140505174550/p_O.jpg",
+      "ingredients": [
+        "куриные окорочка",
+        "крупная соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "оливковое масло extra virgin",
+        "белое вино",
+        "свежий розмарин",
+        "лавровый лист",
+        "лимонный сок"
+      ],
+      "originalIngredients": [
+        "куриные окорочка",
+        "крупная соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "оливковое масло extra virgin",
+        "белое вино",
+        "свежий розмарин",
+        "лавровый лист",
+        "лимонный сок"
+      ],
+      "allergens": [
+        "глютен"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_tsyplenok-rozmarin"
+      ],
+      "source": "house",
+      "sourceId": "tsyplenok-rozmarin",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/ciplenok-s-rozmarinom-43538",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/ciplenok-s-rozmarinom-43538). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_53559",
@@ -3852,6 +4171,63 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_baklazhany-parmidzhano",
+      "canonicalName": "Баклажаны пармиджано",
+      "originalName": "Баклажаны пармиджано",
+      "aliases": [
+        "Баклажаны пармиджано"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Вегетарианское"
+      ],
+      "description": "Запечённые слои жареных баклажанов, томатного соуса, моцареллы и пармезана.",
+      "imageUrl": "/thumbs/house-baklazhany-parmidzhano.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/130104145234/190426183932/p_O.jpg",
+      "ingredients": [
+        "баклажаны",
+        "растительное масло",
+        "оливковое масло",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "сыр моцарелла",
+        "тертый сыр пармезан",
+        "базилик",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "баклажаны",
+        "растительное масло",
+        "оливковое масло",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "сыр моцарелла",
+        "тертый сыр пармезан",
+        "базилик",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 120,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_baklazhany-parmidzhano"
+      ],
+      "source": "house",
+      "sourceId": "baklazhany-parmidzhano",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/baklazhany-parmidzhano-136653",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/baklazhany-parmidzhano-136653). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52775",
       "canonicalName": "Веганская лазанья",
       "originalName": "Vegan Lasagna",
@@ -4757,6 +5133,187 @@
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
     },
     {
+      "id": "house_pasta-alla-norma",
+      "canonicalName": "Паста алла норма",
+      "originalName": "Паста алла норма",
+      "aliases": [
+        "Паста алла норма"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Вегетарианское",
+        "Паста"
+      ],
+      "description": "Сицилийская пенне с жареными баклажанами, томатным соусом, рикоттой и базиликом.",
+      "imageUrl": "/thumbs/house-pasta-alla-norma.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120214125404/180820212458/p_O.jpg",
+      "ingredients": [
+        "баклажаны",
+        "паста пенне",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "помидоры пелати",
+        "перец чили хлопьями",
+        "сыр рикотта",
+        "базилик",
+        "тертый сыр пармезан",
+        "соль"
+      ],
+      "originalIngredients": [
+        "баклажаны",
+        "паста пенне",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "помидоры пелати",
+        "перец чили хлопьями",
+        "сыр рикотта",
+        "базилик",
+        "тертый сыр пармезан",
+        "соль"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_pasta-alla-norma"
+      ],
+      "source": "house",
+      "sourceId": "pasta-alla-norma",
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-alla-norma-125407",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/pasta-picca/pasta-alla-norma-125407). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_alfredo-kuritsa",
+      "canonicalName": "Паста альфредо с курицей",
+      "originalName": "Паста альфредо с курицей",
+      "aliases": [
+        "Паста альфредо с курицей"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Курица",
+        "Паста"
+      ],
+      "description": "Феттучини в сливочно-пармезановом соусе с румяными ломтиками куриного филе.",
+      "imageUrl": "/thumbs/house-alfredo-kuritsa.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170215223809/200811112255/p_O.jpg",
+      "ingredients": [
+        "паста феттучини",
+        "куриное филе",
+        "растительное масло",
+        "сливочное масло",
+        "чеснок",
+        "жирные сливки",
+        "тертый сыр пармезан",
+        "петрушка",
+        "мускатный орех",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "паста феттучини",
+        "куриное филе",
+        "растительное масло",
+        "сливочное масло",
+        "чеснок",
+        "жирные сливки",
+        "тертый сыр пармезан",
+        "петрушка",
+        "мускатный орех",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "орехи"
+      ],
+      "preparationMinutes": 40,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_alfredo-kuritsa"
+      ],
+      "source": "house",
+      "sourceId": "alfredo-kuritsa",
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-alfredo-s-kuricey-139307",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/pasta-picca/pasta-alfredo-s-kuricey-139307). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_pasta-krevetki-slivki",
+      "canonicalName": "Паста с креветками в сливочно-чесночном соусе",
+      "originalName": "Паста с креветками в сливочно-чесночном соусе",
+      "aliases": [
+        "Паста с креветками в сливочно-чесночном соусе"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Морепродукты",
+        "Паста"
+      ],
+      "description": "Спагетти с креветками в нежном сливочно-чесночном соусе — ужин за полчаса.",
+      "imageUrl": "/thumbs/house-pasta-krevetki-slivki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/140321134811/200925113539/p_O.png",
+      "ingredients": [
+        "спагетти",
+        "креветки",
+        "сливки",
+        "сливочное масло",
+        "репчатый лук",
+        "чеснок",
+        "петрушка",
+        "соль",
+        "молотый черный перец",
+        "сыр пармезан"
+      ],
+      "originalIngredients": [
+        "спагетти",
+        "креветки",
+        "сливки",
+        "сливочное масло",
+        "репчатый лук",
+        "чеснок",
+        "петрушка",
+        "соль",
+        "молотый черный перец",
+        "сыр пармезан"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 45,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_pasta-krevetki-slivki"
+      ],
+      "source": "house",
+      "sourceId": "pasta-krevetki-slivki",
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-s-krevetkami-v-slivochno-chesnochnom-souse-55603",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/pasta-picca/pasta-s-krevetkami-v-slivochno-chesnochnom-souse-55603). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "local_pasta-zucchini",
       "canonicalName": "Паста с цукини и чесноком",
       "originalName": "Паста с цукини и чесноком",
@@ -5362,6 +5919,65 @@
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
     },
     {
+      "id": "house_amatrichana",
+      "canonicalName": "Спагетти аматричана",
+      "originalName": "Спагетти аматричана",
+      "aliases": [
+        "Спагетти аматричана"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Свинина",
+        "Паста"
+      ],
+      "description": "Римская паста с беконом, луком и томатами пелати, с лёгкой остринкой чили.",
+      "imageUrl": "/thumbs/house-amatrichana.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/150317164033/150324141106/p_O.jpg",
+      "ingredients": [
+        "спагетти",
+        "оливковое масло extra virgin",
+        "бекон",
+        "репчатый лук",
+        "чеснок",
+        "помидоры пелати",
+        "тертый сыр пармезан",
+        "перец чили хлопьями",
+        "свежемолотый черный перец",
+        "соль"
+      ],
+      "originalIngredients": [
+        "спагетти",
+        "оливковое масло extra virgin",
+        "бекон",
+        "репчатый лук",
+        "чеснок",
+        "помидоры пелати",
+        "тертый сыр пармезан",
+        "перец чили хлопьями",
+        "свежемолотый черный перец",
+        "соль"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_amatrichana"
+      ],
+      "source": "house",
+      "sourceId": "amatrichana",
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/spagetti-amatrichana-49598",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/pasta-picca/spagetti-amatrichana-49598). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52770",
       "canonicalName": "Спагетти болоньезе",
       "originalName": "Spaghetti Bolognese",
@@ -5421,6 +6037,63 @@
       "sourceUrl": "https://www.themealdb.com/meal/52770",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_spagetti-limonnoe-pesto",
+      "canonicalName": "Спагетти с лимонным песто",
+      "originalName": "Спагетти с лимонным песто",
+      "aliases": [
+        "Спагетти с лимонным песто"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Вегетарианское",
+        "Паста"
+      ],
+      "description": "Спагетти с ярким песто из базилика, лимонного сока, пекорино и кедровых орехов.",
+      "imageUrl": "/thumbs/house-spagetti-limonnoe-pesto.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/150317164033/160920185600/p_O.jpg",
+      "ingredients": [
+        "спагетти",
+        "лимон",
+        "чеснок",
+        "сыр пекорино",
+        "кедровые орехи",
+        "базилик",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "спагетти",
+        "лимон",
+        "чеснок",
+        "сыр пекорино",
+        "кедровые орехи",
+        "базилик",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "орехи"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_spagetti-limonnoe-pesto"
+      ],
+      "source": "house",
+      "sourceId": "spagetti-limonnoe-pesto",
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/spagetti-s-limonnim-pesto-30218",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/pasta-picca/spagetti-s-limonnim-pesto-30218). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "local_spaghetti-tonno",
@@ -5526,6 +6199,54 @@
       "sourceUrl": "https://thelemonsqueezy.com/recipe/mediterranean-pasta-salad/",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_saltimbokka",
+      "canonicalName": "Телятина сальтимбокка",
+      "originalName": "Телятина сальтимбокка",
+      "aliases": [
+        "Телятина сальтимбокка"
+      ],
+      "cuisine": "Итальянская",
+      "categories": [
+        "Говядина"
+      ],
+      "description": "Отбивные из телятины с прошутто и шалфеем под винным соусом — быстро и нарядно.",
+      "imageUrl": "/thumbs/house-saltimbokka.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131090114/170124133626/p_O.jpg",
+      "ingredients": [
+        "прошутто",
+        "телячья вырезка",
+        "шалфей",
+        "сливочное масло",
+        "белое сухое вино",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "прошутто",
+        "телячья вырезка",
+        "шалфей",
+        "сливочное масло",
+        "белое сухое вино",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_saltimbokka"
+      ],
+      "source": "house",
+      "sourceId": "saltimbokka",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/saltimbokka-49597",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/saltimbokka-49597). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_52838",
@@ -10559,6 +11280,172 @@
       "sourceUrl": "https://www.slovakia-foods.co.uk/blog/post/bryndzove-halusky-recipe-a-taste-of-slovakia-national-dish.html",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_dorada-kapersy",
+      "canonicalName": "Дорада в духовке с помидорами и каперсами",
+      "originalName": "Дорада в духовке с помидорами и каперсами",
+      "aliases": [
+        "Дорада в духовке с помидорами и каперсами"
+      ],
+      "cuisine": "Средиземноморская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Дорада с помидорами в брюшке и сливочным соусом с каперсами и белым вином.",
+      "imageUrl": "/thumbs/house-dorada-kapersy.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/6/7c/67cc632e1e6041cf9a34b374c6292090.jpg",
+      "ingredients": [
+        "дорада",
+        "помидоры",
+        "каперсы",
+        "петрушка",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "сливочное масло",
+        "белое сухое вино",
+        "бульон",
+        "соль"
+      ],
+      "originalIngredients": [
+        "дорада",
+        "помидоры",
+        "каперсы",
+        "петрушка",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "сливочное масло",
+        "белое сухое вино",
+        "бульон",
+        "соль"
+      ],
+      "allergens": [
+        "молоко",
+        "рыба",
+        "моллюски"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_dorada-kapersy"
+      ],
+      "source": "house",
+      "sourceId": "dorada-kapersy",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/dorada-v-duhovke-s-pomidorami-i-kapersami-153081",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/dorada-v-duhovke-s-pomidorami-i-kapersami-153081). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_sibas-kartofel-kapersy",
+      "canonicalName": "Сибас с картофелем, каперсами и помидорами",
+      "originalName": "Сибас с картофелем, каперсами и помидорами",
+      "aliases": [
+        "Сибас с картофелем, каперсами и помидорами"
+      ],
+      "cuisine": "Средиземноморская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Целый сибас, запечённый на картофеле с черри, каперсами и белым вином.",
+      "imageUrl": "/thumbs/house-sibas-kartofel-kapersy.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/130212102402/140403130242/p_O.jpg",
+      "ingredients": [
+        "сибас",
+        "картофель",
+        "помидоры черри",
+        "каперсы",
+        "белое сухое вино",
+        "лимон",
+        "петрушка",
+        "чеснок",
+        "оливковое масло"
+      ],
+      "originalIngredients": [
+        "сибас",
+        "картофель",
+        "помидоры черри",
+        "каперсы",
+        "белое сухое вино",
+        "лимон",
+        "петрушка",
+        "чеснок",
+        "оливковое масло"
+      ],
+      "allergens": [
+        "рыба",
+        "моллюски"
+      ],
+      "preparationMinutes": 70,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_sibas-kartofel-kapersy"
+      ],
+      "source": "house",
+      "sourceId": "sibas-kartofel-kapersy",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/sibas-s-kartofelem-kapersami-i-pomidorami-42456",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/sibas-s-kartofelem-kapersami-i-pomidorami-42456). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_treska-pomidory",
+      "canonicalName": "Треска с помидорами",
+      "originalName": "Треска с помидорами",
+      "aliases": [
+        "Треска с помидорами"
+      ],
+      "cuisine": "Средиземноморская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Треска, запечённая в пакете с черри, петрушкой, лимоном и оливковым маслом — 15 минут.",
+      "imageUrl": "/thumbs/house-treska-pomidory.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/130829212936/130904175410/p_O.jpg",
+      "ingredients": [
+        "филе трески",
+        "оливковое масло",
+        "лимон",
+        "петрушка",
+        "помидоры черри",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "филе трески",
+        "оливковое масло",
+        "лимон",
+        "петрушка",
+        "помидоры черри",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "рыба",
+        "моллюски"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_treska-pomidory"
+      ],
+      "source": "house",
+      "sourceId": "treska-pomidory",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/treska-s-pomidorami-17591",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/treska-s-pomidorami-17591). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_53206",
@@ -21787,6 +22674,594 @@
         "Влейте помидоры, положите оливки, тушите 25 минут под крышкой."
       ],
       "sourceUrl": "",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_alfredo-kuritsa",
+      "dishId": "house_alfredo-kuritsa",
+      "title": "Паста альфредо с курицей",
+      "ingredients": [
+        "паста феттучини",
+        "куриное филе",
+        "растительное масло",
+        "сливочное масло",
+        "чеснок",
+        "жирные сливки",
+        "тертый сыр пармезан",
+        "петрушка",
+        "мускатный орех",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "250 г",
+        "450 г",
+        "30 мл",
+        "120 г",
+        "2 зубч.",
+        "240 мл",
+        "70 г",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Сварите феттучини на 1–2 минуты меньше времени на упаковке, отлейте полстакана воды от пасты.",
+        "Филе обсушите, посолите, поперчите и обжарьте на растительном масле 5–7 минут до золотистого цвета.",
+        "Переверните, добавьте немного сливочного масла и жарьте ещё 5–7 минут до готовности. Дайте отдохнуть 3 минуты и нарежьте ломтиками.",
+        "В той же сковороде растопите оставшееся масло, 30 секунд прогрейте чеснок.",
+        "Влейте сливки, добавьте пармезан, мускатный орех, соль и перец; томите 3–4 минуты, при необходимости разбавьте водой от пасты.",
+        "Смешайте соус с феттучини, сверху выложите курицу, посыпьте петрушкой и пармезаном."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-alfredo-s-kuricey-139307",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_pasta-krevetki-slivki",
+      "dishId": "house_pasta-krevetki-slivki",
+      "title": "Паста с креветками в сливочно-чесночном соусе",
+      "ingredients": [
+        "спагетти",
+        "креветки",
+        "сливки",
+        "сливочное масло",
+        "репчатый лук",
+        "чеснок",
+        "петрушка",
+        "соль",
+        "молотый черный перец",
+        "сыр пармезан"
+      ],
+      "measures": [
+        "250 г",
+        "200 г",
+        "150 мл",
+        "20 г",
+        "50 г",
+        "2 зубч.",
+        "20 г",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Мелко нарежьте лук и чеснок и обжарьте на сливочном масле 1–2 минуты.",
+        "Добавьте очищенные креветки и готовьте 2–3 минуты.",
+        "Посолите, поперчите, влейте сливки и доведите до кипения. Всыпьте петрушку и снимите с огня.",
+        "Отварите спагетти по инструкции, смешайте с соусом и подавайте с тёртым пармезаном."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-s-krevetkami-v-slivochno-chesnochnom-souse-55603",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_amatrichana",
+      "dishId": "house_amatrichana",
+      "title": "Спагетти аматричана",
+      "ingredients": [
+        "спагетти",
+        "оливковое масло extra virgin",
+        "бекон",
+        "репчатый лук",
+        "чеснок",
+        "помидоры пелати",
+        "тертый сыр пармезан",
+        "перец чили хлопьями",
+        "свежемолотый черный перец",
+        "соль"
+      ],
+      "measures": [
+        "350 г",
+        "2 ст. л.",
+        "115 г",
+        "1 шт.",
+        "2 зубч.",
+        "800 г",
+        "30 г",
+        "½ ч. л.",
+        "½ ч. л.",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Бекон нарежьте полосками и обжарьте на оливковом масле до золотистого цвета, добавьте чёрный перец и чили.",
+        "Добавьте мелко нарезанные лук и чеснок, жарьте до мягкости.",
+        "Положите помидоры, разомните лопаткой и томите на слабом огне 15–20 минут до загустения.",
+        "Сварите спагетти на 2 минуты меньше указанного, сохраните стакан воды.",
+        "Переложите пасту в соус, добавьте полстакана воды от варки и готовьте вместе 2 минуты. Подавайте с пармезаном."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/spagetti-amatrichana-49598",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_pasta-alla-norma",
+      "dishId": "house_pasta-alla-norma",
+      "title": "Паста алла норма",
+      "ingredients": [
+        "баклажаны",
+        "паста пенне",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "помидоры пелати",
+        "перец чили хлопьями",
+        "сыр рикотта",
+        "базилик",
+        "тертый сыр пармезан",
+        "соль"
+      ],
+      "measures": [
+        "2 шт.",
+        "500 г",
+        "50 мл",
+        "500 мл",
+        "2 зубч.",
+        "800 г",
+        "½ ч. л.",
+        "200 г",
+        "20 г",
+        "100 г",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Баклажаны частично очистите, нарежьте кубиками, посолите, залейте водой на 20 минут, затем промойте и обсушите.",
+        "Обжарьте баклажаны в растительном масле до золотистого цвета и выложите на бумажное полотенце.",
+        "На оливковом масле 20–30 секунд прогрейте ломтики чеснока с хлопьями чили, добавьте пелати, посолите и томите 10–15 минут.",
+        "Сварите пенне аль денте.",
+        "Выключите огонь, смешайте пасту с соусом, баклажанами, кусочками рикотты и базиликом. Подавайте с пармезаном."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/pasta-alla-norma-125407",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_saltimbokka",
+      "dishId": "house_saltimbokka",
+      "title": "Телятина сальтимбокка",
+      "ingredients": [
+        "прошутто",
+        "телячья вырезка",
+        "шалфей",
+        "сливочное масло",
+        "белое сухое вино",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "100 г",
+        "700 г",
+        "3 стеб.",
+        "80 г",
+        "250 мл",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Разогрейте духовку до 250 °C. Отбейте вырезку до толщины около 1 см, посолите и поперчите.",
+        "Оберните куски ломтиками прошутто и положите сверху листья шалфея.",
+        "Растопите в сковороде 3 ст. л. сливочного масла и обжарьте мясо шалфеем вниз до корочки, переверните и жарьте ещё минуту.",
+        "Отправьте мясо в духовку на 5 минут.",
+        "В сковороду влейте вино и уварите на треть, затем вмешайте ложку сливочного масла.",
+        "Дайте мясу отдохнуть пару минут и подавайте, полив соусом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/saltimbokka-49597",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_baklazhany-parmidzhano",
+      "dishId": "house_baklazhany-parmidzhano",
+      "title": "Баклажаны пармиджано",
+      "ingredients": [
+        "баклажаны",
+        "растительное масло",
+        "оливковое масло",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "сыр моцарелла",
+        "тертый сыр пармезан",
+        "базилик",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "1 кг",
+        "100 мл",
+        "40 мл",
+        "1 зубч.",
+        "1 кг",
+        "300 г",
+        "100 г",
+        "10 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте баклажаны ломтиками около 1 см, пересыпьте солью и оставьте на час, затем промойте и обсушите.",
+        "Обжарьте ломтики на растительном масле с двух сторон до золотисто-коричневого цвета.",
+        "На оливковом масле 30 секунд прогрейте чеснок, добавьте помидоры и базилик, тушите 5–7 минут, посолите и поперчите.",
+        "В смазанную форму выкладывайте слои: баклажаны, соус, моцарелла и пармезан. Повторите трижды, закончив пармезаном.",
+        "Запекайте 40 минут при 180 °C."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/baklazhany-parmidzhano-136653",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_spagetti-limonnoe-pesto",
+      "dishId": "house_spagetti-limonnoe-pesto",
+      "title": "Спагетти с лимонным песто",
+      "ingredients": [
+        "спагетти",
+        "лимон",
+        "чеснок",
+        "сыр пекорино",
+        "кедровые орехи",
+        "базилик",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "500 г",
+        "4 шт.",
+        "4 зубч.",
+        "50 г",
+        "20 г",
+        "100 г",
+        "150 мл",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Поставьте вариться спагетти в большом количестве подсоленной воды.",
+        "Пекорино натрите на мелкой тёрке.",
+        "В блендере соедините базилик, чеснок, сок лимонов, сыр, орехи и оливковое масло; взбейте до однородности, посолите и поперчите.",
+        "Смешайте горячие спагетти с песто и сразу подавайте."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/pasta-picca/spagetti-s-limonnim-pesto-30218",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_treska-pomidory",
+      "dishId": "house_treska-pomidory",
+      "title": "Треска с помидорами",
+      "ingredients": [
+        "филе трески",
+        "оливковое масло",
+        "лимон",
+        "петрушка",
+        "помидоры черри",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "1,2 кг",
+        "6 ст. л.",
+        "2 шт.",
+        "120 г",
+        "24 шт.",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Разогрейте духовку до 180 °C.",
+        "В каждый пакет для запекания положите кусок трески, ложку рубленой петрушки, 4 разрезанных черри, сок четверти лимона и ложку масла.",
+        "Посолите, поперчите, плотно завяжите пакеты и запекайте 15 минут."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/treska-s-pomidorami-17591",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_sibas-kartofel-kapersy",
+      "dishId": "house_sibas-kartofel-kapersy",
+      "title": "Сибас с картофелем, каперсами и помидорами",
+      "ingredients": [
+        "сибас",
+        "картофель",
+        "помидоры черри",
+        "каперсы",
+        "белое сухое вино",
+        "лимон",
+        "петрушка",
+        "чеснок",
+        "оливковое масло"
+      ],
+      "measures": [
+        "2,1 кг",
+        "600 г",
+        "400 г",
+        "30 г",
+        "200 мл",
+        "1 шт.",
+        "20 г",
+        "4 зубч.",
+        "150 мл"
+      ],
+      "instructions": [
+        "Картофель нарежьте ломтиками 5 мм, отварите в подсоленной воде, обсушите и перемешайте с 50 мл оливкового масла.",
+        "Запекайте картофель на противне 30 минут при 180 °C.",
+        "Добавьте половинки черри и промытые каперсы, сверху положите потрошёную рыбу, посолите, поперчите, сбрызните маслом и вином. Запекайте ещё 30 минут.",
+        "Петрушку, чеснок и 50 мл масла пробейте блендером и процедите.",
+        "Снимите филе с костей, подайте на картофеле, сбрызнув лимонным соком и зелёным маслом."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/sibas-s-kartofelem-kapersami-i-pomidorami-42456",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_dorada-kapersy",
+      "dishId": "house_dorada-kapersy",
+      "title": "Дорада в духовке с помидорами и каперсами",
+      "ingredients": [
+        "дорада",
+        "помидоры",
+        "каперсы",
+        "петрушка",
+        "оливковое масло",
+        "растительное масло",
+        "чеснок",
+        "сливочное масло",
+        "белое сухое вино",
+        "бульон",
+        "соль"
+      ],
+      "measures": [
+        "300 г",
+        "200 г",
+        "15 г",
+        "5 г",
+        "15 мл",
+        "10 мл",
+        "по вкусу",
+        "80 г",
+        "50 мл",
+        "200 мл",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Рыбу почистите, посолите и смажьте снаружи и внутри маслом, пробитым с чесноком.",
+        "Помидоры крупно нарежьте, сбрызните маслом, подсолите и вложите в брюшко.",
+        "Запекайте 15–20 минут при 200 °C.",
+        "Для соуса обжарьте на смеси масел мелкий лук-шалот и каперсы, влейте вино и дайте покипеть 1–2 минуты.",
+        "Добавьте бульон и петрушку, уварите 3–4 минуты, снимите с огня и вмешайте холодное сливочное масло.",
+        "Полейте рыбу соусом и сразу подавайте."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/dorada-v-duhovke-s-pomidorami-i-kapersami-153081",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_tsyplenok-rozmarin",
+      "dishId": "house_tsyplenok-rozmarin",
+      "title": "Цыпленок с розмарином",
+      "ingredients": [
+        "куриные окорочка",
+        "крупная соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "оливковое масло extra virgin",
+        "белое вино",
+        "свежий розмарин",
+        "лавровый лист",
+        "лимонный сок"
+      ],
+      "measures": [
+        "4 шт.",
+        "по вкусу",
+        "по вкусу",
+        "100 г",
+        "50 мл",
+        "220 мл",
+        "3 стеб.",
+        "2 шт.",
+        "20 мл"
+      ],
+      "instructions": [
+        "Разогрейте духовку до 220 °C. Натрите окорочка солью и перцем и обваляйте в муке.",
+        "Обжарьте на оливковом масле около 10 минут до золотистой корочки.",
+        "Влейте вино, добавьте розмарин и лавровый лист, уварите 2 минуты, влейте полтора стакана воды и доведите до кипения.",
+        "Накройте крышкой и поставьте в духовку на 45 минут, затем ещё 5 минут без крышки.",
+        "Влейте лимонный сок, перемешайте и подавайте с соусом со дна сковороды."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/ciplenok-s-rozmarinom-43538",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kuritsa-olivki-feta",
+      "dishId": "house_kuritsa-olivki-feta",
+      "title": "Курица с оливками и сыром фета",
+      "ingredients": [
+        "куриные бедра",
+        "репчатый лук",
+        "чеснок",
+        "консервированные помидоры кусочками",
+        "оливки каламата",
+        "красное сухое вино",
+        "сушеный орегано",
+        "соль",
+        "сыр фета",
+        "молотый черный перец",
+        "растительное масло",
+        "оливковое масло",
+        "паста орзо"
+      ],
+      "measures": [
+        "900 г",
+        "150 г",
+        "2 зубч.",
+        "400 г",
+        "130 г",
+        "120 мл",
+        "2 ч. л.",
+        "по вкусу",
+        "100 г",
+        "по вкусу",
+        "1 ст. л.",
+        "1 ст. л.",
+        "200 г"
+      ],
+      "instructions": [
+        "Бёдра посолите, поперчите и обжарьте кожей вниз на смеси масел до коричневого цвета, по 4 минуты с каждой стороны. Переложите на тарелку.",
+        "В той же сковороде обжарьте крупно нарезанный лук 3 минуты, затем чеснок ещё минуту.",
+        "Добавьте томаты с соком, кольца оливок, вино и орегано, верните курицу.",
+        "Доведите до кипения и тушите под крышкой на слабом огне около 25 минут.",
+        "Подавайте с соусом, посыпав фетой, с отваренной орзо."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-s-olivkami-i-sirom-feta-34964",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_keftedes",
+      "dishId": "house_keftedes",
+      "title": "Кефтедес",
+      "ingredients": [
+        "сушеная мята",
+        "оливковое масло",
+        "сушеный орегано",
+        "молотая корица",
+        "молотый мускатный орех",
+        "кайенский перец",
+        "красный лук",
+        "куриное яйцо",
+        "яичный желток",
+        "молоко",
+        "белый хлеб",
+        "пшеничная мука",
+        "свиной фарш",
+        "чеснок",
+        "томатная паста",
+        "лавровый лист",
+        "лимонный сок",
+        "говяжий бульон",
+        "помидоры в собственном соку",
+        "петрушка",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "1 ст. л.",
+        "100 мл",
+        "2 ст. л.",
+        "¼ ч. л.",
+        "¼ ч. л.",
+        "0,13 ч. л.",
+        "1 головки",
+        "1 шт.",
+        "1 шт.",
+        "250 мл",
+        "2 куска",
+        "80 г",
+        "450 г",
+        "4 зубч.",
+        "1,5 ст. л.",
+        "2 шт.",
+        "1 ст. л.",
+        "250 мл",
+        "800 г",
+        "30 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Смешайте мяту, 2 ст. л. масла, половину орегано, щепотку корицы и мускатного ореха, кайенский перец, тёртый красный лук, яйцо и желток; посолите и поперчите.",
+        "Добавьте хлеб, размоченный в молоке и отжатый, и фарш. Слепите 20 котлеток и обваляйте в муке.",
+        "Обжарьте в оливковом масле по 6 минут со всех сторон.",
+        "Для соуса прогрейте чеснок, добавьте томатную пасту, лавровый лист, пюрированные помидоры, остальные специи и бульон; варите 20 минут.",
+        "Посолите, влейте лимонный сок, положите котлетки, прогрейте и посыпьте петрушкой."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/keftedes-43543",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_suvlaki-dzadziki",
+      "dishId": "house_suvlaki-dzadziki",
+      "title": "Сувлаки из курицы с дзадзики",
+      "ingredients": [
+        "куриные бедра",
+        "орегано",
+        "белое сухое вино",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "греческий йогурт",
+        "огурцы",
+        "чеснок",
+        "белый уксус"
+      ],
+      "measures": [
+        "800 г",
+        "20 г",
+        "70 мл",
+        "190 мл",
+        "по вкусу",
+        "по вкусу",
+        "200 г",
+        "60 г",
+        "½ головок",
+        "50 мл"
+      ],
+      "instructions": [
+        "Снимите кожу с бёдер и замаринуйте в 100 мл масла с вином, орегано, солью и перцем на пару часов.",
+        "Упакуйте бёдра в пакет и держите в воде на тихом огне 2,5 часа, не доводя до кипения (или час в мультиварке при 80 °C).",
+        "Дзадзики: натрите огурец, отожмите, смешайте с йогуртом, чесноком, уксусом и оставшимся маслом, посолите.",
+        "Остывшее мясо нарежьте кусками, нанижите на шпажки и обжарьте на гриль-сковороде по 3–5 минут с каждой стороны.",
+        "Подавайте с дзадзики, овощами и питой."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/suvlaki-iz-kuricy-s-dzadziki-140926",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kotlety-kabachki-feta",
+      "dishId": "house_kotlety-kabachki-feta",
+      "title": "Греческие котлеты из кабачков и феты",
+      "ingredients": [
+        "цукини",
+        "соль",
+        "молотый черный перец",
+        "репчатый лук",
+        "зеленый лук",
+        "свежая мята",
+        "укроп",
+        "петрушка",
+        "сыр фета",
+        "оливковое масло",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "measures": [
+        "1 кг",
+        "по вкусу",
+        "по вкусу",
+        "300 г",
+        "60 г",
+        "20 г",
+        "60 г",
+        "50 г",
+        "200 г",
+        "70 мл",
+        "½ л",
+        "2 шт."
+      ],
+      "instructions": [
+        "Натрите кабачки на тёрке.",
+        "Добавьте нарезанные лук и зелень, посолите и поперчите.",
+        "Вмешайте оливковое масло, яйца и раскрошенную фету.",
+        "Мокрыми руками формируйте круглые котлеты и жарьте в разогретом масле до золотистого цвета."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/grecheskie-kotlety-iz-kabachkov-i-fety-137350",
       "language": "ru"
     }
   ]
