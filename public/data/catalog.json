@@ -910,6 +910,171 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_plov-bulgur-govyadina",
+      "canonicalName": "Плов из булгура с говяжьей вырезкой и барбарисом",
+      "originalName": "Плов из булгура с говяжьей вырезкой и барбарисом",
+      "aliases": [
+        "Плов из булгура с говяжьей вырезкой и барбарисом"
+      ],
+      "cuisine": "Армянская",
+      "categories": [
+        "Говядина"
+      ],
+      "description": "Рассыпчатый плов из булгура с говяжьей вырезкой, морковью и барбарисом.",
+      "imageUrl": "/thumbs/house-plov-bulgur-govyadina.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/170224135654/191017194611/p_O.png",
+      "ingredients": [
+        "булгур",
+        "барбарис",
+        "лук",
+        "морковь",
+        "говяжья вырезка",
+        "растительное масло",
+        "чеснок",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "булгур",
+        "барбарис",
+        "лук",
+        "морковь",
+        "говяжья вырезка",
+        "растительное масло",
+        "чеснок",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_plov-bulgur-govyadina"
+      ],
+      "source": "house",
+      "sourceId": "plov-bulgur-govyadina",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/plov-iz-bulgura-s-govyazhey-vyrezkoy-i-barbarisom-137586",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/plov-iz-bulgura-s-govyazhey-vyrezkoy-i-barbarisom-137586). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_forel-bulgur-shpinat",
+      "canonicalName": "Севанская форель с булгуром и шпинатом",
+      "originalName": "Севанская форель с булгуром и шпинатом",
+      "aliases": [
+        "Севанская форель с булгуром и шпинатом"
+      ],
+      "cuisine": "Армянская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Кубики форели, обжаренные с булгуром и шпинатом, и свежий гарнир из фасоли и томатов.",
+      "imageUrl": "/thumbs/house-forel-bulgur-shpinat.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/170219214134/190912152339/p_O.png",
+      "ingredients": [
+        "севанская форель",
+        "шпинат",
+        "сливочное масло",
+        "зеленая стручковая фасоль",
+        "растительное масло",
+        "булгур",
+        "помидоры",
+        "соевый соус",
+        "листья кинзы (кориандра)",
+        "соль",
+        "лимонный сок"
+      ],
+      "originalIngredients": [
+        "севанская форель",
+        "шпинат",
+        "сливочное масло",
+        "зеленая стручковая фасоль",
+        "растительное масло",
+        "булгур",
+        "помидоры",
+        "соевый соус",
+        "листья кинзы (кориандра)",
+        "соль",
+        "лимонный сок"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "рыба",
+        "моллюски",
+        "соя"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_forel-bulgur-shpinat"
+      ],
+      "source": "house",
+      "sourceId": "forel-bulgur-shpinat",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/sevanskaya-forel-s-bulgurom-i-shpinatom-137412",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/sevanskaya-forel-s-bulgurom-i-shpinatom-137412). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_chechevichnyi-sup-shpinat",
+      "canonicalName": "Чечевичный суп со шпинатом",
+      "originalName": "Чечевичный суп со шпинатом",
+      "aliases": [
+        "Чечевичный суп со шпинатом"
+      ],
+      "cuisine": "Армянская",
+      "categories": [
+        "Вегетарианское",
+        "Суп"
+      ],
+      "description": "Лёгкий чечевичный суп с луком, перцем, свежим шпинатом и кинзой.",
+      "imageUrl": "/thumbs/house-chechevichnyi-sup-shpinat.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/170224135654/191017194212/p_O.png",
+      "ingredients": [
+        "чечевица",
+        "вода",
+        "шпинат",
+        "топленое масло",
+        "репчатый лук",
+        "зеленый перец",
+        "кинза"
+      ],
+      "originalIngredients": [
+        "чечевица",
+        "вода",
+        "шпинат",
+        "топленое масло",
+        "репчатый лук",
+        "зеленый перец",
+        "кинза"
+      ],
+      "allergens": [],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_chechevichnyi-sup-shpinat"
+      ],
+      "source": "house",
+      "sourceId": "chechevichnyi-sup-shpinat",
+      "sourceUrl": "https://eda.ru/recepty/supy/chechevichnyy-sup-so-shpinatom-137585",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/chechevichnyy-sup-so-shpinatom-137585). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53453",
       "canonicalName": "Бенгальское куриное карри с картофелем",
       "originalName": "Bengali Chicken Curry with Potatoes",
@@ -2912,6 +3077,285 @@
       "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/ciplenok-s-rozmarinom-43538). Шаги сокращены и пересказаны на русском."
     },
     {
+      "id": "house_chkmeruli",
+      "canonicalName": "Курица с чесноком чкмерули",
+      "originalName": "Курица с чесноком чкмерули",
+      "aliases": [
+        "Курица с чесноком чкмерули"
+      ],
+      "cuisine": "Грузинская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Курица под прессом, томлённая в чесночно-молочном соусе.",
+      "imageUrl": "/thumbs/house-chkmeruli.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170227165112/200914221104/p_O.jpg",
+      "ingredients": [
+        "курица",
+        "чеснок",
+        "сухая аджика",
+        "растительное масло",
+        "молоко",
+        "молотый черный перец",
+        "соль"
+      ],
+      "originalIngredients": [
+        "курица",
+        "чеснок",
+        "сухая аджика",
+        "растительное масло",
+        "молоко",
+        "молотый черный перец",
+        "соль"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_chkmeruli"
+      ],
+      "source": "house",
+      "sourceId": "chkmeruli",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/chkmeruli-139552",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/chkmeruli-139552). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_odzhahuri-tykva",
+      "canonicalName": "Оджахури с тыквой",
+      "originalName": "Оджахури с тыквой",
+      "aliases": [
+        "Оджахури с тыквой"
+      ],
+      "cuisine": "Грузинская",
+      "categories": [
+        "Говядина"
+      ],
+      "description": "Быстрое оджахури из телятины с тыквой, перцем, цукини и кинзой на одной сковороде.",
+      "imageUrl": "/thumbs/house-odzhahuri-tykva.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120304025019/181108142118/p_O.jpg",
+      "ingredients": [
+        "тыква",
+        "телятина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "цукини",
+        "растительное масло",
+        "кинза",
+        "молотый кориандр",
+        "чабрец",
+        "чеснок",
+        "молотый черный перец",
+        "соль"
+      ],
+      "originalIngredients": [
+        "тыква",
+        "телятина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "цукини",
+        "растительное масло",
+        "кинза",
+        "молотый кориандр",
+        "чабрец",
+        "чеснок",
+        "молотый черный перец",
+        "соль"
+      ],
+      "allergens": [],
+      "preparationMinutes": 25,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_odzhahuri-tykva"
+      ],
+      "source": "house",
+      "sourceId": "odzhahuri-tykva",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/odzhahuri-s-tykvoy-126062",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/odzhahuri-s-tykvoy-126062). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_harcho",
+      "canonicalName": "Суп харчо",
+      "originalName": "Суп харчо",
+      "aliases": [
+        "Суп харчо"
+      ],
+      "cuisine": "Грузинская",
+      "categories": [
+        "Говядина",
+        "Суп"
+      ],
+      "description": "Густой суп харчо на говяжьем бульоне с рисом, томатами, чесноком и зеленью.",
+      "imageUrl": "/thumbs/house-harcho.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/140902214744/140910171546/p_O.jpg",
+      "ingredients": [
+        "говядина",
+        "репчатый лук",
+        "рис",
+        "помидоры",
+        "укроп",
+        "петрушка",
+        "специи",
+        "чеснок",
+        "кинза"
+      ],
+      "originalIngredients": [
+        "говядина",
+        "репчатый лук",
+        "рис",
+        "помидоры",
+        "укроп",
+        "петрушка",
+        "специи",
+        "чеснок",
+        "кинза"
+      ],
+      "allergens": [
+        "моллюски"
+      ],
+      "preparationMinutes": 75,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "beef",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_harcho"
+      ],
+      "source": "house",
+      "sourceId": "harcho",
+      "sourceUrl": "https://eda.ru/recepty/supy/sup-harcho-33916",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/sup-harcho-33916). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_tsyplenok-tabaka",
+      "canonicalName": "Цыпленок табака",
+      "originalName": "Цыпленок табака",
+      "aliases": [
+        "Цыпленок табака"
+      ],
+      "cuisine": "Грузинская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Распластанный цыплёнок, обжаренный под гнётом до хрустящей золотистой корочки.",
+      "imageUrl": "/thumbs/house-tsyplenok-tabaka.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131082327/170426151534/p_O.jpg",
+      "ingredients": [
+        "цыпленок",
+        "соль",
+        "молотый красный перец",
+        "молотый черный перец",
+        "растительное масло",
+        "сливочное масло"
+      ],
+      "originalIngredients": [
+        "цыпленок",
+        "соль",
+        "молотый красный перец",
+        "молотый черный перец",
+        "растительное масло",
+        "сливочное масло"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 20,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_tsyplenok-tabaka"
+      ],
+      "source": "house",
+      "sourceId": "tsyplenok-tabaka",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/cyplenok-tabaka-92617",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/cyplenok-tabaka-92617). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_chahohbili",
+      "canonicalName": "Чахохбили с курицей и картофелем",
+      "originalName": "Чахохбили с курицей и картофелем",
+      "aliases": [
+        "Чахохбили с курицей и картофелем"
+      ],
+      "cuisine": "Грузинская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Курица, томлённая с луком, помидорами, хмели-сунели и чесноком, с лимоном и зеленью.",
+      "imageUrl": "/thumbs/house-chahohbili.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131090259/150414142913/p_O.jpg",
+      "ingredients": [
+        "помидоры",
+        "курица",
+        "томатная паста",
+        "репчатый лук",
+        "чеснок",
+        "хмели-сунели",
+        "молотый кориандр",
+        "шафран",
+        "сливочное масло",
+        "соль",
+        "растительное масло",
+        "молотый красный перец",
+        "лимон",
+        "картофель",
+        "свежий красный перец"
+      ],
+      "originalIngredients": [
+        "помидоры",
+        "курица",
+        "томатная паста",
+        "репчатый лук",
+        "чеснок",
+        "хмели-сунели",
+        "молотый кориандр",
+        "шафран",
+        "сливочное масло",
+        "соль",
+        "растительное масло",
+        "молотый красный перец",
+        "лимон",
+        "картофель",
+        "свежий красный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_chahohbili"
+      ],
+      "source": "house",
+      "sourceId": "chahohbili",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/chahohbili-iz-kurici-17444",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/chahohbili-iz-kurici-17444). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53559",
       "canonicalName": "Запечённый brie с sorrel jam",
       "originalName": "Baked brie with sorrel jam",
@@ -3856,6 +4300,128 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_gaspacho",
+      "canonicalName": "Гаспачо",
+      "originalName": "Гаспачо",
+      "aliases": [
+        "Гаспачо"
+      ],
+      "cuisine": "Испанская",
+      "categories": [
+        "Вегетарианское",
+        "Суп"
+      ],
+      "description": "Холодный томатный суп с огурцом, перцем, чесноком и оливковым маслом.",
+      "imageUrl": "/thumbs/house-gaspacho.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120420200719/181121222436/p_O.jpg",
+      "ingredients": [
+        "помидоры",
+        "чеснок",
+        "зеленый сладкий перец",
+        "огурцы",
+        "красный винный уксус",
+        "оливковое масло",
+        "черствый белый хлеб",
+        "соль"
+      ],
+      "originalIngredients": [
+        "помидоры",
+        "чеснок",
+        "зеленый сладкий перец",
+        "огурцы",
+        "красный винный уксус",
+        "оливковое масло",
+        "черствый белый хлеб",
+        "соль"
+      ],
+      "allergens": [
+        "глютен",
+        "моллюски"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_gaspacho"
+      ],
+      "source": "house",
+      "sourceId": "gaspacho",
+      "sourceUrl": "https://eda.ru/recepty/supy/gaspacho-125535",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/gaspacho-125535). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_kuritsa-pikasso",
+      "canonicalName": "Курица «Пикассо»",
+      "originalName": "Курица «Пикассо»",
+      "aliases": [
+        "Курица «Пикассо»"
+      ],
+      "cuisine": "Испанская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Куриные грудки с разноцветным перцем и луком в томатном соусе под сырной корочкой.",
+      "imageUrl": "/thumbs/house-kuritsa-pikasso.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120214133254/120214133453/p_O.jpg",
+      "ingredients": [
+        "куриная грудка",
+        "лук",
+        "сладкий перец",
+        "чеснок",
+        "помидоры",
+        "овощной бульонный кубик",
+        "сыр",
+        "смесь итальянских трав",
+        "вода",
+        "сливки",
+        "оливковое масло",
+        "мускатный орех",
+        "соль",
+        "сливочное масло",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "куриная грудка",
+        "лук",
+        "сладкий перец",
+        "чеснок",
+        "помидоры",
+        "овощной бульонный кубик",
+        "сыр",
+        "смесь итальянских трав",
+        "вода",
+        "сливки",
+        "оливковое масло",
+        "мускатный орех",
+        "соль",
+        "сливочное масло",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "молоко",
+        "моллюски",
+        "орехи"
+      ],
+      "preparationMinutes": 45,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kuritsa-pikasso"
+      ],
+      "source": "house",
+      "sourceId": "kuritsa-pikasso",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-pikasso-25902",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurica-pikasso-25902). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_53161",
       "canonicalName": "Курица с чоризо и рисом",
       "originalName": "Chicken & chorizo rice pot",
@@ -4307,6 +4873,52 @@
       "sourceUrl": "https://www.bbcgoodfood.com/recipes/chorizo-chickpea-soup",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_hek-zelenyi-sous",
+      "canonicalName": "Хек в зеленом чесночном соусе",
+      "originalName": "Хек в зеленом чесночном соусе",
+      "aliases": [
+        "Хек в зеленом чесночном соусе"
+      ],
+      "cuisine": "Испанская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Стейки хека, обжаренные в оливковом масле с чесноком и большим количеством петрушки.",
+      "imageUrl": "/thumbs/house-hek-zelenyi-sous.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131084342/171003154022/p_O.jpg",
+      "ingredients": [
+        "хек",
+        "чеснок",
+        "рубленая петрушка",
+        "свежий лавровый лист",
+        "оливковое масло extra virgin"
+      ],
+      "originalIngredients": [
+        "хек",
+        "чеснок",
+        "рубленая петрушка",
+        "свежий лавровый лист",
+        "оливковое масло extra virgin"
+      ],
+      "allergens": [
+        "рыба"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_hek-zelenyi-sous"
+      ],
+      "source": "house",
+      "sourceId": "hek-zelenyi-sous",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/hek-v-zelenom-chesnochnom-souse-27049",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/hek-v-zelenom-chesnochnom-souse-27049). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "house_baklazhany-parmidzhano",
@@ -9518,6 +10130,76 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_sopa-de-lima",
+      "canonicalName": "Мексиканский суп сопа-де-лима",
+      "originalName": "Мексиканский суп сопа-де-лима",
+      "aliases": [
+        "Мексиканский суп сопа-де-лима"
+      ],
+      "cuisine": "Мексиканская",
+      "categories": [
+        "Курица",
+        "Суп"
+      ],
+      "description": "Мексиканский куриный суп с лаймом, томатами, хрустящими полосками тортильи и авокадо.",
+      "imageUrl": "/thumbs/house-sopa-de-lima.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120605145344/181217225739/p_O.jpg",
+      "ingredients": [
+        "тортильи",
+        "растительное масло",
+        "репчатый лук",
+        "чеснок",
+        "красный перец чили",
+        "молотая корица",
+        "молотая гвоздика",
+        "помидоры",
+        "куриный бульон",
+        "орегано",
+        "филе куриного бедра",
+        "лайм",
+        "кинза",
+        "авокадо",
+        "соль",
+        "сахар"
+      ],
+      "originalIngredients": [
+        "тортильи",
+        "растительное масло",
+        "репчатый лук",
+        "чеснок",
+        "красный перец чили",
+        "молотая корица",
+        "молотая гвоздика",
+        "помидоры",
+        "куриный бульон",
+        "орегано",
+        "филе куриного бедра",
+        "лайм",
+        "кинза",
+        "авокадо",
+        "соль",
+        "сахар"
+      ],
+      "allergens": [
+        "глютен",
+        "моллюски"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_sopa-de-lima"
+      ],
+      "source": "house",
+      "sourceId": "sopa-de-lima",
+      "sourceUrl": "https://eda.ru/recepty/supy/sopa-de-lima-93327",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/sopa-de-lima-93327). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52819",
       "canonicalName": "Тако с рыбой в стиле каджун",
       "originalName": "Cajun spiced fish tacos",
@@ -13725,6 +14407,62 @@
       "sourceUrl": "https://www.bbcgoodfood.com/recipes/easy-hummus-recipe",
       "imageLicense": "Изображение с TheMealDB; хранится у источника, не копируется в приложение",
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
+    },
+    {
+      "id": "house_zharkoe-kuritsa-ovoshchi",
+      "canonicalName": "Жаркое из курицы с овощами",
+      "originalName": "Жаркое из курицы с овощами",
+      "aliases": [
+        "Жаркое из курицы с овощами"
+      ],
+      "cuisine": "Узбекская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Кусочки цыплёнка, запечённые на подушке из картофеля, помидоров, перца и красного лука.",
+      "imageUrl": "/thumbs/house-zharkoe-kuritsa-ovoshchi.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131085017/151126163521/p_O.jpg",
+      "ingredients": [
+        "цыпленок",
+        "картофель",
+        "чеснок",
+        "сладкий красный лук",
+        "помидоры",
+        "сладкий перец",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "тимьян"
+      ],
+      "originalIngredients": [
+        "цыпленок",
+        "картофель",
+        "чеснок",
+        "сладкий красный лук",
+        "помидоры",
+        "сладкий перец",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "тимьян"
+      ],
+      "allergens": [
+        "моллюски"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_zharkoe-kuritsa-ovoshchi"
+      ],
+      "source": "house",
+      "sourceId": "zharkoe-kuritsa-ovoshchi",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharkoe-iz-kurici-s-ovoshhami-43188",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/zharkoe-iz-kurici-s-ovoshhami-43188). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_53315",
@@ -26099,6 +26837,493 @@
         "Запекайте в разогретой духовке около 15 минут и подавайте с рисом."
       ],
       "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zapechennaja-riba-po-vetnamski-14354",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_chahohbili",
+      "dishId": "house_chahohbili",
+      "title": "Чахохбили с курицей и картофелем",
+      "ingredients": [
+        "помидоры",
+        "курица",
+        "томатная паста",
+        "репчатый лук",
+        "чеснок",
+        "хмели-сунели",
+        "молотый кориандр",
+        "шафран",
+        "сливочное масло",
+        "соль",
+        "растительное масло",
+        "молотый красный перец",
+        "лимон",
+        "картофель",
+        "свежий красный перец"
+      ],
+      "measures": [
+        "1 кг",
+        "1 кг",
+        "2 ст. л.",
+        "500 г",
+        "4 зубч.",
+        "1 ч. л.",
+        "1 ч. л.",
+        "1 ч. л.",
+        "1 ст. л.",
+        "по вкусу",
+        "1 ст. л.",
+        "по вкусу",
+        "½ шт.",
+        "½ кг",
+        "1 шт."
+      ],
+      "instructions": [
+        "Нарежьте курицу на кусочки и поставьте тушить в кастрюле с растительным маслом.",
+        "Тем временем мелко нарежьте помидоры и потушите их с томатной пастой.",
+        "Слейте сок от курицы в отдельную посуду. К курице добавьте сливочное масло, лук, перец, специи и чеснок и обжарьте до корочки, часто помешивая.",
+        "Влейте горячий сок и помидоры; при необходимости долейте воды или бульона, чтобы покрыть мясо.",
+        "Накройте и тушите на слабом огне, пока мясо не начнёт отходить от костей. Подавайте с кружками лимона и зеленью."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/chahohbili-iz-kurici-17444",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_chkmeruli",
+      "dishId": "house_chkmeruli",
+      "title": "Курица с чесноком чкмерули",
+      "ingredients": [
+        "курица",
+        "чеснок",
+        "сухая аджика",
+        "растительное масло",
+        "молоко",
+        "молотый черный перец",
+        "соль"
+      ],
+      "measures": [
+        "1 шт.",
+        "10 зубч.",
+        "5 г",
+        "50 мл",
+        "400 мл",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Разрежьте курицу по грудке и раскройте книжкой, натрите аджикой, солью и перцем.",
+        "Обжарьте внутренней стороной вниз под прессом, затем переверните и жарьте ещё 7–10 минут.",
+        "Разделайте курицу на порционные куски.",
+        "Раздавите чеснок с солью и водой в кашицу и прогрейте в той же сковороде до аромата.",
+        "Влейте молоко, выложите курицу и тушите под крышкой на минимальном огне 15–20 минут."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/chkmeruli-139552",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_tsyplenok-tabaka",
+      "dishId": "house_tsyplenok-tabaka",
+      "title": "Цыпленок табака",
+      "ingredients": [
+        "цыпленок",
+        "соль",
+        "молотый красный перец",
+        "молотый черный перец",
+        "растительное масло",
+        "сливочное масло"
+      ],
+      "measures": [
+        "1 шт.",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу",
+        "80 мл",
+        "100 г"
+      ],
+      "instructions": [
+        "Разрежьте грудку цыплёнка, раскройте тушку, срежьте лишний жир и кожу, отбейте.",
+        "Посыпьте солью и перцами, смажьте маслом и оставьте на 30 минут.",
+        "Обжаривайте на раскалённой сковороде-гриль внутренней стороной вниз под гнётом 6–8 минут на сильном огне.",
+        "Переверните и жарьте под гнётом ещё 5–6 минут на среднем огне.",
+        "Уберите гнёт, добавьте сливочное масло и обжарьте ещё по паре минут с каждой стороны."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/cyplenok-tabaka-92617",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_odzhahuri-tykva",
+      "dishId": "house_odzhahuri-tykva",
+      "title": "Оджахури с тыквой",
+      "ingredients": [
+        "тыква",
+        "телятина",
+        "репчатый лук",
+        "красный сладкий перец",
+        "цукини",
+        "растительное масло",
+        "кинза",
+        "молотый кориандр",
+        "чабрец",
+        "чеснок",
+        "молотый черный перец",
+        "соль"
+      ],
+      "measures": [
+        "500 г",
+        "500 г",
+        "1 головки",
+        "½ шт.",
+        "½ шт.",
+        "50 мл",
+        "10 г",
+        "щепотка",
+        "щепотка",
+        "3 зубч.",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Тыкву и телятину нарежьте одинаковыми брусочками.",
+        "Обжарьте тыкву до полуготовности, добавьте мясо и жарьте 3–4 минуты.",
+        "Добавьте чеснок и тонкие полукольца лука, готовьте ещё 2–3 минуты.",
+        "Положите соломку перца и цукини, посолите, поперчите, добавьте чабрец, кориандр и кинзу."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/odzhahuri-s-tykvoy-126062",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_harcho",
+      "dishId": "house_harcho",
+      "title": "Суп харчо",
+      "ingredients": [
+        "говядина",
+        "репчатый лук",
+        "рис",
+        "помидоры",
+        "укроп",
+        "петрушка",
+        "специи",
+        "чеснок",
+        "кинза"
+      ],
+      "measures": [
+        "400 г",
+        "3 шт.",
+        "4 ст. л.",
+        "500 г",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу",
+        "1 зубч.",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Залейте мясо с косточками 2–2,5 л холодной воды, доведите до кипения, снимите пену и варите 1–1,5 часа.",
+        "Мелко нарежьте лук и медленно обжарьте до золотистого цвета.",
+        "Добавьте к луку мясо из бульона, жарьте 5 минут, влейте немного бульона и тушите под крышкой 15 минут.",
+        "Переложите в кипящий бульон вместе с помидорами, добавьте рис и варите.",
+        "Через 5 минут убавьте огонь и добавьте специи, в конце — толчёный чеснок и рубленую зелень. Дайте настояться под крышкой."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/sup-harcho-33916",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_plov-bulgur-govyadina",
+      "dishId": "house_plov-bulgur-govyadina",
+      "title": "Плов из булгура с говяжьей вырезкой и барбарисом",
+      "ingredients": [
+        "булгур",
+        "барбарис",
+        "лук",
+        "морковь",
+        "говяжья вырезка",
+        "растительное масло",
+        "чеснок",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "1 кг",
+        "50 г",
+        "300 г",
+        "300 г",
+        "700 г",
+        "350 мл",
+        "80 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте морковь соломкой, лук полукольцами, вырезку тонко и обжарьте в кастрюле на масле 15 минут.",
+        "Добавьте промытый булгур и барбарис, залейте холодной водой (1:1 к булгуру), положите головку чеснока.",
+        "Посолите, поперчите и варите под крышкой до впитывания воды, затем перемешайте и дайте постоять."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/plov-iz-bulgura-s-govyazhey-vyrezkoy-i-barbarisom-137586",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_forel-bulgur-shpinat",
+      "dishId": "house_forel-bulgur-shpinat",
+      "title": "Севанская форель с булгуром и шпинатом",
+      "ingredients": [
+        "севанская форель",
+        "шпинат",
+        "сливочное масло",
+        "зеленая стручковая фасоль",
+        "растительное масло",
+        "булгур",
+        "помидоры",
+        "соевый соус",
+        "листья кинзы (кориандра)",
+        "соль",
+        "лимонный сок"
+      ],
+      "measures": [
+        "200 г",
+        "100 г",
+        "100 г",
+        "50 г",
+        "1 ст. л.",
+        "1 стак.",
+        "2 шт.",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте филе форели кубиками и обжарьте на смеси сливочного и растительного масла 3 минуты.",
+        "Добавьте заранее замоченный булгур, шпинат и соевый соус, посолите и жарьте ещё 3 минуты.",
+        "Для гарнира нарежьте стручковую фасоль соломкой, помидоры кубиками, добавьте кинзу и заправьте лимонным соком.",
+        "Подавайте рыбу с гарниром."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/sevanskaya-forel-s-bulgurom-i-shpinatom-137412",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_zharkoe-kuritsa-ovoshchi",
+      "dishId": "house_zharkoe-kuritsa-ovoshchi",
+      "title": "Жаркое из курицы с овощами",
+      "ingredients": [
+        "цыпленок",
+        "картофель",
+        "чеснок",
+        "сладкий красный лук",
+        "помидоры",
+        "сладкий перец",
+        "оливковое масло",
+        "соль",
+        "молотый черный перец",
+        "тимьян"
+      ],
+      "measures": [
+        "1 шт.",
+        "300 г",
+        "4 зубч.",
+        "2 головки",
+        "4 шт.",
+        "1 шт.",
+        "3 ст. л.",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте картофель, помидоры, перец и лук крупно, полейте оливковым маслом, посолите и поперчите.",
+        "Цыплёнка разрежьте на куски, натрите солью и перцем и обжарьте до золотистой корочки.",
+        "Выложите овощи в форму, сверху курицу и запекайте при 180 °C до готовности.",
+        "Подавайте со свежими травами."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharkoe-iz-kurici-s-ovoshhami-43188",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_chechevichnyi-sup-shpinat",
+      "dishId": "house_chechevichnyi-sup-shpinat",
+      "title": "Чечевичный суп со шпинатом",
+      "ingredients": [
+        "чечевица",
+        "вода",
+        "шпинат",
+        "топленое масло",
+        "репчатый лук",
+        "зеленый перец",
+        "кинза"
+      ],
+      "measures": [
+        "200 г",
+        "1,5 л",
+        "150 г",
+        "80 г",
+        "100 г",
+        "150 г",
+        "20 г"
+      ],
+      "instructions": [
+        "Сварите чечевицу до полуготовности.",
+        "Добавьте лук, обжаренный на топлёном масле, и болгарский перец соломкой.",
+        "Доварите до готовности; за 2 минуты до конца положите шпинат и кинзу, посолите и поперчите."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/chechevichnyy-sup-so-shpinatom-137585",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_hek-zelenyi-sous",
+      "dishId": "house_hek-zelenyi-sous",
+      "title": "Хек в зеленом чесночном соусе",
+      "ingredients": [
+        "хек",
+        "чеснок",
+        "рубленая петрушка",
+        "свежий лавровый лист",
+        "оливковое масло extra virgin"
+      ],
+      "measures": [
+        "4 куска",
+        "3 зубч.",
+        "3 ст. л.",
+        "1 шт.",
+        "4 ст. л."
+      ],
+      "instructions": [
+        "Мелко порубите чеснок и петрушку.",
+        "Разогрейте 4 ст. л. оливкового масла, прогрейте чеснок пару минут, затем добавьте петрушку.",
+        "Обсушите и посолите стейки, выложите в сковороду с лавровым листом и жарьте 10–12 минут.",
+        "Аккуратно переверните и доведите до готовности.",
+        "Подавайте, полив зелёным чесночным соусом, с молодым картофелем."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/hek-v-zelenom-chesnochnom-souse-27049",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kuritsa-pikasso",
+      "dishId": "house_kuritsa-pikasso",
+      "title": "Курица «Пикассо»",
+      "ingredients": [
+        "куриная грудка",
+        "лук",
+        "сладкий перец",
+        "чеснок",
+        "помидоры",
+        "овощной бульонный кубик",
+        "сыр",
+        "смесь итальянских трав",
+        "вода",
+        "сливки",
+        "оливковое масло",
+        "мускатный орех",
+        "соль",
+        "сливочное масло",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "4 шт.",
+        "2 шт.",
+        "3 шт.",
+        "3 зубч.",
+        "4 шт.",
+        "1 шт.",
+        "100 г",
+        "1 ст. л.",
+        "½ стак.",
+        "½ стак.",
+        "2 ст. л.",
+        "щепотка",
+        "по вкусу",
+        "1 ст. л.",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте перец кольцами, лук полукольцами, чеснок натрите.",
+        "Грудки посолите, поперчите и обжарьте на смеси масел до золотистой корочки, переложите в форму.",
+        "В той же сковороде обжарьте лук, затем слегка — перец, и выложите к курице.",
+        "Пассеруйте чеснок 30 секунд, добавьте воду, помидоры, бульонный кубик и травы, варите соус 5 минут.",
+        "Залейте курицу, накройте фольгой и запекайте 30 минут при 200 °C, затем посыпьте сыром и запекайте ещё 15 минут без фольги."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-pikasso-25902",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_gaspacho",
+      "dishId": "house_gaspacho",
+      "title": "Гаспачо",
+      "ingredients": [
+        "помидоры",
+        "чеснок",
+        "зеленый сладкий перец",
+        "огурцы",
+        "красный винный уксус",
+        "оливковое масло",
+        "черствый белый хлеб",
+        "соль"
+      ],
+      "measures": [
+        "1 кг",
+        "1 зубч.",
+        "1 шт.",
+        "150 г",
+        "50 мл",
+        "250 мл",
+        "100 г",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Нарежьте чёрствый хлеб и замочите в воде на 10 минут.",
+        "Надрежьте помидоры, бланшируйте 30 секунд, остудите в ледяной воде, очистите и нарежьте.",
+        "Перец очистите от семян, огурец — от кожицы, нарежьте крупно.",
+        "Пробейте в блендере овощи, чеснок, отжатый хлеб, уксус, масло и соль до однородности.",
+        "Подавайте охлаждённым с кубиками огурца и каплями масла."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/gaspacho-125535",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_sopa-de-lima",
+      "dishId": "house_sopa-de-lima",
+      "title": "Мексиканский суп сопа-де-лима",
+      "ingredients": [
+        "тортильи",
+        "растительное масло",
+        "репчатый лук",
+        "чеснок",
+        "красный перец чили",
+        "молотая корица",
+        "молотая гвоздика",
+        "помидоры",
+        "куриный бульон",
+        "орегано",
+        "филе куриного бедра",
+        "лайм",
+        "кинза",
+        "авокадо",
+        "соль",
+        "сахар"
+      ],
+      "measures": [
+        "6 шт.",
+        "500 мл",
+        "225 г",
+        "3 зубч.",
+        "2 шт.",
+        "¼ ч. л.",
+        "щепотка",
+        "500 г",
+        "1500 мл",
+        "1 ч. л.",
+        "750 г",
+        "4 шт.",
+        "50 г",
+        "2 шт.",
+        "по вкусу",
+        "1 ст. л."
+      ],
+      "instructions": [
+        "Нарежьте тортильи полосками, подсушите в духовке 10–12 минут при 180 °C и обжарьте в масле партиями до золотистого цвета.",
+        "В кастрюле на небольшом количестве этого масла обжарьте лук до прозрачности, добавьте чили, чеснок, корицу и гвоздику на пару минут.",
+        "Добавьте помидоры, бульон, курицу, орегано и соль; тушите под крышкой 20–25 минут.",
+        "Достаньте курицу, разберите на волокна, верните в суп и добавьте сок лаймов.",
+        "Подавайте с полосками тортильи, авокадо и кинзой."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/sopa-de-lima-93327",
       "language": "ru"
     }
   ]
