@@ -9498,6 +9498,56 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_svinina-v-duhovke",
+      "canonicalName": "Ароматная свинина в духовке",
+      "originalName": "Ароматная свинина в духовке",
+      "aliases": [
+        "Ароматная свинина в духовке"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Свинина"
+      ],
+      "description": "Кусок свинины в пряной корочке из розмарина, цедры и кориандра, запечённый в рукаве.",
+      "imageUrl": "/thumbs/house-svinina-v-duhovke.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/150428090447/210521124155/p_O.jpg",
+      "ingredients": [
+        "свинина",
+        "оливковое масло",
+        "молотый сушеный чеснок",
+        "розмарин",
+        "лимонная цедра",
+        "морская соль",
+        "черный перец горошком",
+        "молотый кориандр"
+      ],
+      "originalIngredients": [
+        "свинина",
+        "оливковое масло",
+        "молотый сушеный чеснок",
+        "розмарин",
+        "лимонная цедра",
+        "морская соль",
+        "черный перец горошком",
+        "молотый кориандр"
+      ],
+      "allergens": [],
+      "preparationMinutes": 315,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_svinina-v-duhovke"
+      ],
+      "source": "house",
+      "sourceId": "svinina-v-duhovke",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/aromatnaya-svinina-v-duhovke-35305",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/aromatnaya-svinina-v-duhovke-35305). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "themealdb_52834",
       "canonicalName": "Бефстроганов",
       "originalName": "Beef stroganoff",
@@ -9659,6 +9709,63 @@
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
     },
     {
+      "id": "house_golubtsy",
+      "canonicalName": "Голубцы",
+      "originalName": "Голубцы",
+      "aliases": [
+        "Голубцы"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Свинина"
+      ],
+      "description": "Классические голубцы со свиным фаршем и рисом в томатно-сметанном соусе.",
+      "imageUrl": "/thumbs/house-golubtsy.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120131090615/180208132916/p_O.jpg",
+      "ingredients": [
+        "свиной фарш",
+        "белокочанная капуста",
+        "рис",
+        "репчатый лук",
+        "пшеничная мука",
+        "томатная паста",
+        "растительное масло",
+        "сметана",
+        "молотый черный перец",
+        "соль"
+      ],
+      "originalIngredients": [
+        "свиной фарш",
+        "белокочанная капуста",
+        "рис",
+        "репчатый лук",
+        "пшеничная мука",
+        "томатная паста",
+        "растительное масло",
+        "сметана",
+        "молотый черный перец",
+        "соль"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_golubtsy"
+      ],
+      "source": "house",
+      "sourceId": "golubtsy",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/golubcy-114527",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/golubcy-114527). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "local_grechka-kuritsa",
       "canonicalName": "Гречка с куриной грудкой",
       "originalName": "Гречка с куриной грудкой",
@@ -9708,6 +9815,113 @@
       "sourceUrl": "",
       "imageLicense": "Сгенерированное фото карточки, не чужой рецептурный снимок.",
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
+    },
+    {
+      "id": "house_domashnie-kotlety",
+      "canonicalName": "Домашние котлеты",
+      "originalName": "Домашние котлеты",
+      "aliases": [
+        "Домашние котлеты"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Свинина",
+        "Говядина"
+      ],
+      "description": "Сочные котлеты из фарша со сливками и луком: обжарка до корочки и доводка в духовке.",
+      "imageUrl": "/thumbs/house-domashnie-kotlety.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/130116161736/190429131921/p_O.jpg",
+      "ingredients": [
+        "мясной фарш",
+        "репчатый лук",
+        "панировочные сухари",
+        "сливки",
+        "соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "originalIngredients": [
+        "мясной фарш",
+        "репчатый лук",
+        "панировочные сухари",
+        "сливки",
+        "соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "яйца"
+      ],
+      "preparationMinutes": 40,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_domashnie-kotlety"
+      ],
+      "source": "house",
+      "sourceId": "domashnie-kotlety",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/domashnie-kotlety-126611",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/domashnie-kotlety-126611). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_kurinye-serdechki",
+      "canonicalName": "Жареные куриные сердечки",
+      "originalName": "Жареные куриные сердечки",
+      "aliases": [
+        "Жареные куриные сердечки"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Куриные сердечки, обжаренные с луком и морковью и доведённые с карри.",
+      "imageUrl": "/thumbs/house-kurinye-serdechki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/151012151127/210519130943/p_O.jpg",
+      "ingredients": [
+        "куриные сердца",
+        "репчатый лук",
+        "морковь",
+        "вода",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "карри-порошок"
+      ],
+      "originalIngredients": [
+        "куриные сердца",
+        "репчатый лук",
+        "морковь",
+        "вода",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "карри-порошок"
+      ],
+      "allergens": [],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kurinye-serdechki"
+      ],
+      "source": "house",
+      "sourceId": "kurinye-serdechki",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharenye-kurinye-serdechki-32069",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/zharenye-kurinye-serdechki-32069). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "local_grudka-travy",
@@ -9805,6 +10019,54 @@
       "sourceUrl": "",
       "imageLicense": "Сгенерированное фото карточки, не чужой рецептурный снимок.",
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
+    },
+    {
+      "id": "house_pechen-smetana",
+      "canonicalName": "Куриная печень в сметане",
+      "originalName": "Куриная печень в сметане",
+      "aliases": [
+        "Куриная печень в сметане"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Нежная куриная печень с луком, тушённая в сметане, — готова за полчаса.",
+      "imageUrl": "/thumbs/house-pechen-smetana.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/130907154434/190823113920/p_O.jpg",
+      "ingredients": [
+        "куриная печень",
+        "сметана 20%-ная",
+        "репчатый лук",
+        "сливочное масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "куриная печень",
+        "сметана 20%-ная",
+        "репчатый лук",
+        "сливочное масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_pechen-smetana"
+      ],
+      "source": "house",
+      "sourceId": "pechen-smetana",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurinaya-pechen-v-smetane-31593",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurinaya-pechen-v-smetane-31593). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "local_grudka-brokkoli",
@@ -10054,6 +10316,65 @@
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
     },
     {
+      "id": "house_kuritsa-griby-shuba",
+      "canonicalName": "Курица с грибами, запеченная под картофельно-сырной шубой",
+      "originalName": "Курица с грибами, запеченная под картофельно-сырной шубой",
+      "aliases": [
+        "Курица с грибами, запеченная под картофельно-сырной шубой"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Курица"
+      ],
+      "description": "Курица с грибами в сливочном соусе под шубой из тёртого картофеля и сыра.",
+      "imageUrl": "/thumbs/house-kuritsa-griby-shuba.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/120131111357/121103110614/p_O.jpg",
+      "ingredients": [
+        "свежие грибы",
+        "куриная грудка",
+        "картофель",
+        "лук",
+        "пшеничная мука",
+        "молоко",
+        "сливки 20%-ные",
+        "сыр",
+        "соль",
+        "молотый черный перец",
+        "растительное масло"
+      ],
+      "originalIngredients": [
+        "свежие грибы",
+        "куриная грудка",
+        "картофель",
+        "лук",
+        "пшеничная мука",
+        "молоко",
+        "сливки 20%-ные",
+        "сыр",
+        "соль",
+        "молотый черный перец",
+        "растительное масло"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "medium",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_kuritsa-griby-shuba"
+      ],
+      "source": "house",
+      "sourceId": "kuritsa-griby-shuba",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-s-gribami-zapechennaja-pod-kartofelno-sirnoj-shuboj-34441",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/kurica-s-gribami-zapechennaja-pod-kartofelno-sirnoj-shuboj-34441). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "local_mintai-luk-morkov",
       "canonicalName": "Минтай с луком и морковью",
       "originalName": "Минтай с луком и морковью",
@@ -10099,6 +10420,64 @@
       "sourceUrl": "",
       "imageLicense": "Сгенерированное фото карточки, не чужой рецептурный снимок.",
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
+    },
+    {
+      "id": "house_ezhiki",
+      "canonicalName": "Мясные ежики",
+      "originalName": "Мясные ежики",
+      "aliases": [
+        "Мясные ежики"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Свинина",
+        "Говядина"
+      ],
+      "description": "Мясные шарики с рисом, тушённые в томатной подливе с морковью и луком.",
+      "imageUrl": "/thumbs/house-ezhiki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/121108155046/190401130621/p_O.jpg",
+      "ingredients": [
+        "смешанный фарш",
+        "длиннозерный рис",
+        "репчатый лук",
+        "морковь",
+        "куриное яйцо",
+        "томатная паста",
+        "растительное масло",
+        "вода",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "смешанный фарш",
+        "длиннозерный рис",
+        "репчатый лук",
+        "морковь",
+        "куриное яйцо",
+        "томатная паста",
+        "растительное масло",
+        "вода",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "яйца"
+      ],
+      "preparationMinutes": 60,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "pork",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_ezhiki"
+      ],
+      "source": "house",
+      "sourceId": "ezhiki",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/myasnye-ezhiki-126429",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/myasnye-ezhiki-126429). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "local_ovoshchnoe-ragu",
@@ -10415,6 +10794,130 @@
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
     },
     {
+      "id": "house_ryba-pod-marinadom",
+      "canonicalName": "Рыба под маринадом",
+      "originalName": "Рыба под маринадом",
+      "aliases": [
+        "Рыба под маринадом"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Треска в муке, тушённая под морковно-луковым томатным маринадом со специями.",
+      "imageUrl": "/thumbs/house-ryba-pod-marinadom.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120214132605/180906165312/p_O.jpg",
+      "ingredients": [
+        "филе трески",
+        "морковь",
+        "репчатый лук",
+        "пшеничная мука",
+        "растительное масло",
+        "лавровый лист",
+        "черный перец горошком",
+        "томатная паста",
+        "вода",
+        "уксус 9%-ный",
+        "сахар",
+        "гвоздика",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "филе трески",
+        "морковь",
+        "репчатый лук",
+        "пшеничная мука",
+        "растительное масло",
+        "лавровый лист",
+        "черный перец горошком",
+        "томатная паста",
+        "вода",
+        "уксус 9%-ный",
+        "сахар",
+        "гвоздика",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "глютен",
+        "рыба"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_ryba-pod-marinadom"
+      ],
+      "source": "house",
+      "sourceId": "ryba-pod-marinadom",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/ryba-v-marinade-125465",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/ryba-v-marinade-125465). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_rybnye-kotlety",
+      "canonicalName": "Рыбные котлеты",
+      "originalName": "Рыбные котлеты",
+      "aliases": [
+        "Рыбные котлеты"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Морепродукты"
+      ],
+      "description": "Нежные котлеты из трески со сливками, обжаренные и запечённые в духовке.",
+      "imageUrl": "/thumbs/house-rybnye-kotlety.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/121017153819/190313001142/p_O.jpg",
+      "ingredients": [
+        "филе трески",
+        "репчатый лук",
+        "белый хлеб",
+        "молоко",
+        "жирные сливки",
+        "куриное яйцо",
+        "пшеничная мука",
+        "соль",
+        "молотый белый перец",
+        "растительное масло"
+      ],
+      "originalIngredients": [
+        "филе трески",
+        "репчатый лук",
+        "белый хлеб",
+        "молоко",
+        "жирные сливки",
+        "куриное яйцо",
+        "пшеничная мука",
+        "соль",
+        "молотый белый перец",
+        "растительное масло"
+      ],
+      "allergens": [
+        "глютен",
+        "молоко",
+        "яйца",
+        "рыба"
+      ],
+      "preparationMinutes": 40,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "fish",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_rybnye-kotlety"
+      ],
+      "source": "house",
+      "sourceId": "rybnye-kotlety",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/rybnye-kotlety-126528",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/rybnye-kotlety-126528). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "local_salat-kuritsa-ovoshchi",
       "canonicalName": "Салат с курицей и овощами",
       "originalName": "Салат с курицей и овощами",
@@ -10464,6 +10967,116 @@
       "sourceUrl": "",
       "imageLicense": "Сгенерированное фото карточки, не чужой рецептурный снимок.",
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
+    },
+    {
+      "id": "house_salat-kuritsa-chernosliv",
+      "canonicalName": "Салат с курицей, огурцом и черносливом",
+      "originalName": "Салат с курицей, огурцом и черносливом",
+      "aliases": [
+        "Салат с курицей, огурцом и черносливом"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Курица",
+        "Закуска"
+      ],
+      "description": "Салат из отварной грудки, свежих огурцов, яиц и чернослива с лёгкой заправкой.",
+      "imageUrl": "/thumbs/house-salat-kuritsa-chernosliv.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170224233526/210628230535/p_O.jpg",
+      "ingredients": [
+        "куриное яйцо",
+        "куриная грудка",
+        "чернослив без косточек",
+        "майонез",
+        "огурцы",
+        "лавровый лист",
+        "душистый перец горошком",
+        "соль"
+      ],
+      "originalIngredients": [
+        "куриное яйцо",
+        "куриная грудка",
+        "чернослив без косточек",
+        "майонез",
+        "огурцы",
+        "лавровый лист",
+        "душистый перец горошком",
+        "соль"
+      ],
+      "allergens": [
+        "яйца"
+      ],
+      "preparationMinutes": 15,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_salat-kuritsa-chernosliv"
+      ],
+      "source": "house",
+      "sourceId": "salat-kuritsa-chernosliv",
+      "sourceUrl": "https://eda.ru/recepty/salaty/salat-s-kuricey-ogurcom-i-chernoslivom-41548",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/salaty/salat-s-kuricey-ogurcom-i-chernoslivom-41548). Шаги сокращены и пересказаны на русском."
+    },
+    {
+      "id": "house_syrnyi-sup-lisichki",
+      "canonicalName": "Сырный суп с лисичками",
+      "originalName": "Сырный суп с лисичками",
+      "aliases": [
+        "Сырный суп с лисичками"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Вегетарианское",
+        "Суп"
+      ],
+      "description": "Сливочный сырный суп с лисичками, картофелем и тимьяном.",
+      "imageUrl": "/thumbs/house-syrnyi-sup-lisichki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/120213183151/180704135946/p_O.jpg",
+      "ingredients": [
+        "репчатый лук",
+        "морковь",
+        "тимьян",
+        "сливочное масло",
+        "растительное масло",
+        "лисички",
+        "плавленый сыр Hochland в блочках",
+        "картофель",
+        "соль",
+        "молотый черный перец"
+      ],
+      "originalIngredients": [
+        "репчатый лук",
+        "морковь",
+        "тимьян",
+        "сливочное масло",
+        "растительное масло",
+        "лисички",
+        "плавленый сыр Hochland в блочках",
+        "картофель",
+        "соль",
+        "молотый черный перец"
+      ],
+      "allergens": [
+        "молоко"
+      ],
+      "preparationMinutes": 40,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "hearty",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_syrnyi-sup-lisichki"
+      ],
+      "source": "house",
+      "sourceId": "syrnyi-sup-lisichki",
+      "sourceUrl": "https://eda.ru/recepty/supy/syrnyy-sup-s-lisichkami-125481",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/syrnyy-sup-s-lisichkami-125481). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "local_kapusta-kuritsa",
@@ -10569,6 +11182,65 @@
       "attribution": "TheMealDB (https://www.themealdb.com). Бесплатный каталог для личных проектов; фотографии и рецепты принадлежат своим авторам."
     },
     {
+      "id": "house_farshirovannye-kabachki",
+      "canonicalName": "Фаршированные кабачки",
+      "originalName": "Фаршированные кабачки",
+      "aliases": [
+        "Фаршированные кабачки"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Вегетарианское"
+      ],
+      "description": "Колечки кабачков с морковно-луковой начинкой, помидорами и сырной шапкой.",
+      "imageUrl": "/thumbs/house-farshirovannye-kabachki.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/170228210155/210913195828/p_O.jpg",
+      "ingredients": [
+        "кабачки",
+        "морковь",
+        "репчатый лук",
+        "петрушка",
+        "помидоры",
+        "сыр моцарелла для пиццы",
+        "тертый сыр пармезан",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "прованские травы"
+      ],
+      "originalIngredients": [
+        "кабачки",
+        "морковь",
+        "репчатый лук",
+        "петрушка",
+        "помидоры",
+        "сыр моцарелла для пиццы",
+        "тертый сыр пармезан",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "прованские травы"
+      ],
+      "allergens": [
+        "молоко",
+        "моллюски"
+      ],
+      "preparationMinutes": 30,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "veg",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_farshirovannye-kabachki"
+      ],
+      "source": "house",
+      "sourceId": "farshirovannye-kabachki",
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zapechennie-farshirovannie-kabachki-pod-sirom-37719",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/osnovnye-blyuda/zapechennie-farshirovannie-kabachki-pod-sirom-37719). Шаги сокращены и пересказаны на русском."
+    },
+    {
       "id": "local_fasol-ovoshchi",
       "canonicalName": "Фасоль с овощами",
       "originalName": "Фасоль с овощами",
@@ -10665,6 +11337,72 @@
       "sourceUrl": "",
       "imageLicense": "Сгенерированное фото карточки, не чужой рецептурный снимок.",
       "attribution": "Домашняя карточка «Что поесть?». Шаги на русском."
+    },
+    {
+      "id": "house_shchavelevyi-sup",
+      "canonicalName": "Щавелевый суп",
+      "originalName": "Щавелевый суп",
+      "aliases": [
+        "Щавелевый суп"
+      ],
+      "cuisine": "Русская",
+      "categories": [
+        "Курица",
+        "Суп"
+      ],
+      "description": "Кисловатый щавелевый суп на курином бульоне с яичными нитями и сметаной.",
+      "imageUrl": "/thumbs/house-shchavelevyi-sup.jpg",
+      "sourceImageUrl": "https://s1.eda.ru/StaticContent/Photos/Upscaled/160415112843/160921114737/p_O.jpg",
+      "ingredients": [
+        "куриный бульон",
+        "картофель",
+        "куриное яйцо",
+        "щавель",
+        "лук",
+        "морковь",
+        "лимон",
+        "сметана",
+        "лавровый лист",
+        "растительное масло",
+        "петрушка",
+        "укроп",
+        "соль",
+        "свежемолотый черный перец"
+      ],
+      "originalIngredients": [
+        "куриный бульон",
+        "картофель",
+        "куриное яйцо",
+        "щавель",
+        "лук",
+        "морковь",
+        "лимон",
+        "сметана",
+        "лавровый лист",
+        "растительное масло",
+        "петрушка",
+        "укроп",
+        "соль",
+        "свежемолотый черный перец"
+      ],
+      "allergens": [
+        "молоко",
+        "яйца"
+      ],
+      "preparationMinutes": 35,
+      "difficulty": "easy",
+      "budget": "low",
+      "style": "healthy",
+      "protein": "chicken",
+      "isNew": true,
+      "recipeIds": [
+        "recipe_house_shchavelevyi-sup"
+      ],
+      "source": "house",
+      "sourceId": "shchavelevyi-sup",
+      "sourceUrl": "https://eda.ru/recepty/supy/schavelevij-sup-31638",
+      "imageLicense": "Фото со страницы рецепта (Еда.ру); права у автора.",
+      "attribution": "Рецепт: Еда.ру (https://eda.ru/recepty/supy/schavelevij-sup-31638). Шаги сокращены и пересказаны на русском."
     },
     {
       "id": "themealdb_53077",
@@ -23262,6 +24000,496 @@
         "Мокрыми руками формируйте круглые котлеты и жарьте в разогретом масле до золотистого цвета."
       ],
       "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/grecheskie-kotlety-iz-kabachkov-i-fety-137350",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_domashnie-kotlety",
+      "dishId": "house_domashnie-kotlety",
+      "title": "Домашние котлеты",
+      "ingredients": [
+        "мясной фарш",
+        "репчатый лук",
+        "панировочные сухари",
+        "сливки",
+        "соль",
+        "молотый черный перец",
+        "пшеничная мука",
+        "растительное масло",
+        "куриное яйцо"
+      ],
+      "measures": [
+        "500 г",
+        "1 головки",
+        "50 г",
+        "150 мл",
+        "1 ч. л.",
+        "по вкусу",
+        "100 г",
+        "100 мл",
+        "1 шт."
+      ],
+      "instructions": [
+        "Залейте сухари сливками на 5–10 минут.",
+        "Мелко нарежьте лук и обжарьте до золотистого цвета.",
+        "Смешайте фарш с сухарями, луком и яйцом, посолите, поперчите и хорошо отбейте.",
+        "Мокрыми руками сформуйте котлеты, обваляйте в муке и обжарьте по 2–3 минуты с каждой стороны.",
+        "Переложите на противень с пергаментом и доведите в духовке 15 минут при 180 °C. Хороши с пюре."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/domashnie-kotlety-126611",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_golubtsy",
+      "dishId": "house_golubtsy",
+      "title": "Голубцы",
+      "ingredients": [
+        "свиной фарш",
+        "белокочанная капуста",
+        "рис",
+        "репчатый лук",
+        "пшеничная мука",
+        "томатная паста",
+        "растительное масло",
+        "сметана",
+        "молотый черный перец",
+        "соль"
+      ],
+      "measures": [
+        "300 г",
+        "800 г",
+        "90 г",
+        "1 шт.",
+        "10 г",
+        "90 г",
+        "60 мл",
+        "90 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Обжарьте мелко нарезанный лук до золотистого цвета, рис сварите и остудите.",
+        "Смешайте фарш с рисом и луком, посолите и поперчите.",
+        "Разберите капусту на листья, бланшируйте 5 минут в кипятке, отбейте черешки.",
+        "Заверните фарш в листья и слегка обжарьте голубцы, переложите в кастрюлю.",
+        "В сковороду влейте стакан воды, добавьте сметану, томатную пасту и муку, доведите до кипения и посолите.",
+        "Залейте голубцы соусом и тушите под крышкой на небольшом огне 30–40 минут."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/golubcy-114527",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_ezhiki",
+      "dishId": "house_ezhiki",
+      "title": "Мясные ежики",
+      "ingredients": [
+        "смешанный фарш",
+        "длиннозерный рис",
+        "репчатый лук",
+        "морковь",
+        "куриное яйцо",
+        "томатная паста",
+        "растительное масло",
+        "вода",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "500 г",
+        "100 г",
+        "2 головки",
+        "1 шт.",
+        "2 шт.",
+        "50 г",
+        "30 мл",
+        "250 мл",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Смешайте фарш с одной мелко нарезанной луковицей, рисом, яйцами, солью и перцем.",
+        "Вторую луковицу обжарьте до прозрачности, добавьте тёртую морковь и жарьте пару минут.",
+        "Добавьте томатную пасту, влейте стакан воды и подсолите.",
+        "Сформуйте одинаковые шарики, выложите в подливу и тушите под крышкой 30–40 минут на небольшом огне."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/myasnye-ezhiki-126429",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_pechen-smetana",
+      "dishId": "house_pechen-smetana",
+      "title": "Куриная печень в сметане",
+      "ingredients": [
+        "куриная печень",
+        "сметана 20%-ная",
+        "репчатый лук",
+        "сливочное масло",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "600 г",
+        "500 г",
+        "1 головки",
+        "20 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Печень промойте, по желанию вымочите в молоке 20 минут, обрежьте прожилки и нарежьте кусочками.",
+        "Лук нарежьте и обжарьте на сливочном масле до золотистого цвета.",
+        "Добавьте печень и жарьте 5–7 минут, пока не исчезнет красный цвет. Посолите и поперчите.",
+        "Залейте сметаной и тушите на среднем огне около 10 минут."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurinaya-pechen-v-smetane-31593",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_farshirovannye-kabachki",
+      "dishId": "house_farshirovannye-kabachki",
+      "title": "Фаршированные кабачки",
+      "ingredients": [
+        "кабачки",
+        "морковь",
+        "репчатый лук",
+        "петрушка",
+        "помидоры",
+        "сыр моцарелла для пиццы",
+        "тертый сыр пармезан",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "прованские травы"
+      ],
+      "measures": [
+        "600 г",
+        "1 шт.",
+        "1 шт.",
+        "5 г",
+        "200 г",
+        "100 г",
+        "100 г",
+        "60 мл",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Обжарьте мелко нарезанный лук, добавьте тёртую морковь и жарьте до мягкости; посолите, поперчите, добавьте прованские травы.",
+        "Нарежьте кабачки кольцами 1–1,5 см, удалите серединки, слегка обжарьте с двух сторон и выложите на противень.",
+        "Помидоры мелко нарежьте, сыр натрите и смешайте с рубленой петрушкой.",
+        "Наполните кольца зажаркой, сверху выложите помидоры и густо посыпьте сыром.",
+        "Запекайте 15–20 минут при 180 °C."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zapechennie-farshirovannie-kabachki-pod-sirom-37719",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_ryba-pod-marinadom",
+      "dishId": "house_ryba-pod-marinadom",
+      "title": "Рыба под маринадом",
+      "ingredients": [
+        "филе трески",
+        "морковь",
+        "репчатый лук",
+        "пшеничная мука",
+        "растительное масло",
+        "лавровый лист",
+        "черный перец горошком",
+        "томатная паста",
+        "вода",
+        "уксус 9%-ный",
+        "сахар",
+        "гвоздика",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "600 г",
+        "400 г",
+        "400 г",
+        "150 г",
+        "90 мл",
+        "2 шт.",
+        "7 шт.",
+        "100 г",
+        "400 мл",
+        "60 мл",
+        "50 г",
+        "3 шт.",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Рыбу посолите, поперчите, обваляйте в муке и обжарьте на сильном огне по минуте с каждой стороны.",
+        "На той же сковороде спассеруйте лук полукольцами, добавьте тёртую морковь, посолите и тушите до мягкости.",
+        "Верните рыбу в сковороду и накройте овощами.",
+        "Смешайте воду с томатной пастой, уксусом и сахаром и залейте рыбу.",
+        "Добавьте перец горошком, гвоздику и лавровый лист, тушите под крышкой 15–20 минут на медленном огне."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/ryba-v-marinade-125465",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_rybnye-kotlety",
+      "dishId": "house_rybnye-kotlety",
+      "title": "Рыбные котлеты",
+      "ingredients": [
+        "филе трески",
+        "репчатый лук",
+        "белый хлеб",
+        "молоко",
+        "жирные сливки",
+        "куриное яйцо",
+        "пшеничная мука",
+        "соль",
+        "молотый белый перец",
+        "растительное масло"
+      ],
+      "measures": [
+        "500 г",
+        "1 головки",
+        "120 г",
+        "150 мл",
+        "100 мл",
+        "1 шт.",
+        "100 г",
+        "по вкусу",
+        "по вкусу",
+        "50 мл"
+      ],
+      "instructions": [
+        "Залейте хлебный мякиш молоком на 5–10 минут, лук обжарьте до золотистого цвета.",
+        "Пропустите треску через мясорубку вместе с луком и отжатым хлебом.",
+        "Добавьте яйцо, сливки, соль и белый перец, перемешайте и уберите в холодильник на 30–40 минут.",
+        "Сформуйте котлеты, обваляйте в муке и обжарьте с обеих сторон до золотистого цвета.",
+        "Доведите в духовке 15 минут при 180 °C и подавайте горячими."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/rybnye-kotlety-126528",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_salat-kuritsa-chernosliv",
+      "dishId": "house_salat-kuritsa-chernosliv",
+      "title": "Салат с курицей, огурцом и черносливом",
+      "ingredients": [
+        "куриное яйцо",
+        "куриная грудка",
+        "чернослив без косточек",
+        "майонез",
+        "огурцы",
+        "лавровый лист",
+        "душистый перец горошком",
+        "соль"
+      ],
+      "measures": [
+        "2 шт.",
+        "1 шт.",
+        "100 г",
+        "по вкусу",
+        "2 шт.",
+        "1 шт.",
+        "3 шт.",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Сварите грудку с лавровым листом и душистым перцем, бульон сохраните.",
+        "Яйца сварите 10 минут, остудите, очистите и натрите на крупной тёрке.",
+        "Грудку, огурцы и чернослив нарежьте толстой соломкой.",
+        "Разбавьте майонез куриным бульоном до однородности.",
+        "Смешайте всё и посолите по вкусу."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/salaty/salat-s-kuricey-ogurcom-i-chernoslivom-41548",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_shchavelevyi-sup",
+      "dishId": "house_shchavelevyi-sup",
+      "title": "Щавелевый суп",
+      "ingredients": [
+        "куриный бульон",
+        "картофель",
+        "куриное яйцо",
+        "щавель",
+        "лук",
+        "морковь",
+        "лимон",
+        "сметана",
+        "лавровый лист",
+        "растительное масло",
+        "петрушка",
+        "укроп",
+        "соль",
+        "свежемолотый черный перец"
+      ],
+      "measures": [
+        "2 л",
+        "150 г",
+        "3 шт.",
+        "100 г",
+        "70 г",
+        "70 г",
+        "0,3333 шт.",
+        "300 г",
+        "1 шт.",
+        "75 мл",
+        "20 г",
+        "20 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Стебли щавеля проварите 5 минут в бульоне и процедите его; листья крупно нарежьте.",
+        "Спассеруйте тёртую морковь и лук до золотистого цвета.",
+        "В кипящий бульон положите картофель кубиками, зажарку и лавровый лист, варите 10–15 минут.",
+        "Добавьте немного лимонного сока и, помешивая венчиком, тонкой струйкой влейте взбитые яйца. Посолите и поперчите.",
+        "Положите щавель, варите не больше 5 минут. Подавайте с зеленью и сметаной."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/schavelevij-sup-31638",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_syrnyi-sup-lisichki",
+      "dishId": "house_syrnyi-sup-lisichki",
+      "title": "Сырный суп с лисичками",
+      "ingredients": [
+        "репчатый лук",
+        "морковь",
+        "тимьян",
+        "сливочное масло",
+        "растительное масло",
+        "лисички",
+        "плавленый сыр Hochland в блочках",
+        "картофель",
+        "соль",
+        "молотый черный перец"
+      ],
+      "measures": [
+        "120 г",
+        "120 г",
+        "по вкусу",
+        "20 г",
+        "50 мл",
+        "300 г",
+        "3 шт.",
+        "400 г",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Прогрейте тимьян на смеси масел минуту, обжарьте мелкий лук до прозрачности и уберите тимьян.",
+        "Добавьте морковь кубиками и лисички, жарьте пару минут.",
+        "Положите картофель такими же кубиками, залейте водой, доведите до кипения и варите 15 минут.",
+        "Растопите в супе плавленый сыр, посолите, поперчите и добавьте укроп."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/supy/syrnyy-sup-s-lisichkami-125481",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_svinina-v-duhovke",
+      "dishId": "house_svinina-v-duhovke",
+      "title": "Ароматная свинина в духовке",
+      "ingredients": [
+        "свинина",
+        "оливковое масло",
+        "молотый сушеный чеснок",
+        "розмарин",
+        "лимонная цедра",
+        "морская соль",
+        "черный перец горошком",
+        "молотый кориандр"
+      ],
+      "measures": [
+        "1 кг",
+        "3 ст. л.",
+        "1 ч. л.",
+        "1 шт.",
+        "1 шт.",
+        "1 ч. л.",
+        "1 ч. л.",
+        "1 ч. л."
+      ],
+      "instructions": [
+        "Разотрите в ступке розмарин с перцем и солью, добавьте цедру, чеснок, кориандр и оливковое масло.",
+        "Свинину обсушите, жир надрежьте сеточкой и натрите пряной смесью.",
+        "Заверните в плёнку и уберите в холодильник на 2 часа, затем выдержите при комнатной температуре.",
+        "Переложите в рукав, сделайте проколы и запекайте 15 минут при 200 °C, затем около часа при 170 °C.",
+        "За 35–40 минут до конца можно выложить рядом овощи с маслом и специями."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/aromatnaya-svinina-v-duhovke-35305",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kuritsa-griby-shuba",
+      "dishId": "house_kuritsa-griby-shuba",
+      "title": "Курица с грибами, запеченная под картофельно-сырной шубой",
+      "ingredients": [
+        "свежие грибы",
+        "куриная грудка",
+        "картофель",
+        "лук",
+        "пшеничная мука",
+        "молоко",
+        "сливки 20%-ные",
+        "сыр",
+        "соль",
+        "молотый черный перец",
+        "растительное масло"
+      ],
+      "measures": [
+        "250 г",
+        "300 г",
+        "4 шт.",
+        "1 шт.",
+        "1 ст. л.",
+        "250 мл",
+        "150 г",
+        "100 г",
+        "по вкусу",
+        "по вкусу",
+        "1 ст. л."
+      ],
+      "instructions": [
+        "Разогрейте духовку до 180 °C. Картофель варите 6 минут после закипания, остудите и очистите.",
+        "Курицу нарежьте кусочками и обжарьте до румяности, переложите на тарелку.",
+        "Обжарьте лук, добавьте грибы и жарьте до испарения жидкости. Всыпьте муку и, помешивая, влейте молоко со сливками.",
+        "Верните курицу, посолите, поперчите и выложите в форму.",
+        "Сверху натрите картофель, подсолите, посыпьте сыром и запекайте около 30 минут."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/kurica-s-gribami-zapechennaja-pod-kartofelno-sirnoj-shuboj-34441",
+      "language": "ru"
+    },
+    {
+      "id": "recipe_house_kurinye-serdechki",
+      "dishId": "house_kurinye-serdechki",
+      "title": "Жареные куриные сердечки",
+      "ingredients": [
+        "куриные сердца",
+        "репчатый лук",
+        "морковь",
+        "вода",
+        "растительное масло",
+        "соль",
+        "молотый черный перец",
+        "карри-порошок"
+      ],
+      "measures": [
+        "500 г",
+        "1 головки",
+        "1 шт.",
+        "½ стак.",
+        "30 мл",
+        "по вкусу",
+        "по вкусу",
+        "по вкусу"
+      ],
+      "instructions": [
+        "Сердечки промойте и очистите от плёнки.",
+        "Обжарьте на масле 5–7 минут до корочки.",
+        "Добавьте лук и морковь тонкими полукольцами и жарьте ещё 5–7 минут.",
+        "Влейте полстакана воды и тушите 10–15 минут, помешивая и подливая воду при необходимости.",
+        "Посолите, добавьте карри и подавайте горячими."
+      ],
+      "sourceUrl": "https://eda.ru/recepty/osnovnye-blyuda/zharenye-kurinye-serdechki-32069",
       "language": "ru"
     }
   ]
